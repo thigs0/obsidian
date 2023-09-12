@@ -1,6 +1,6 @@
 
 
-_Exemplo_
+_Exemplo_ 
 $(D^2 +1)^2 (D-4)^5y = 3xsenx+(x^4+8x)e^{4x}$
 
 A solução particular

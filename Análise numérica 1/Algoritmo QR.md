@@ -4,7 +4,7 @@ Considere a [[Matriz]] $\mathbb{R}^{nxn}$. Suponhamos que A é não singular. O 
 Inicialize $A_0=A$ 
 Gere a sequência:
 $A_{m-1}=Q_mR_m$
-$A_m=R_mQ_m$  
+$A_m=R_mQ_m$   
 
 Onde $Q_m$ é uma matriz unitária, $R_m$ é uma matriz triangular superior com as entradas da diagonal positiva
 
