@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "29dedb83e3a97dac",
+    "type": "split",
+    "children": [
+      {
+        "id": "d02b04591cf73301",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ef7e6657602a689",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação Linear/Método Big-M.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3472282559f960d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "815821addf955133",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cdc546af7a0e1288",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f013e39ed5571d57",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ac9d03c05dfa1aca",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4a8ca14625d46057",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a553f0143d7e75c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f6d63025542ab4b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Programação Linear/Método Big-M.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9efc82a458d27e5f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Programação Linear/Método Big-M.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fafe6c982d71bb25",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "33e17832d38875ab",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Programação Linear/Método Big-M.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "0ef7e6657602a689",
+  "lastOpenFiles": [
+    "Programação Linear/Solução básica.md",
+    "Programação Linear/Método Big-M.md",
+    "Programação Linear/Método simplex.md",
+    "aprendizado de máquina/Regressão Lasso.md",
+    "aprendizado de máquina/Método das equações normais.md",
+    "aprendizado de máquina/Regressão elastic net.md",
+    "aprendizado de máquina/Regressão Ridge.md",
+    "aprendizado de máquina/Problemas multiclasses.md",
+    "aprendizado de máquina/Cart.md",
+    "aprendizado de máquina/Acurácia.md"
+  ]
+}
