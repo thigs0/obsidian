@@ -1,0 +1,2 @@
+- Estima a proporção da variabilidade da variável dependente (Y) que é explicada pelo conjunto das k variáveis independentes do ajuste linear, [[Cálculo numérico/Quadrados mínimos|Quadrados mínimos]]
+- 

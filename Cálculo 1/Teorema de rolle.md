@@ -1,0 +1,1 @@
+Seja f diferenciável em $[a,b]$. Se f(a) = f(b), então existe $c \in (a,b)$ tal que a sua [[Derivada]] Seja 0: f'(c) = 0

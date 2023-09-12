@@ -1,0 +1,2 @@
+- É uma generalização de aproximação linear para uma função de várias coordenadas
+- Aponta a direção de maior crescimento das [[Funções]]

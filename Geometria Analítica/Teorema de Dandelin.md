@@ -1,0 +1,1 @@
+Os pontos onde as esferas de Dandelin tocam o [[Plano]], são focos da seção cônica.

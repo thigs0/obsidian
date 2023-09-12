@@ -1,0 +1,1 @@
+Uma forma rápida de saber se o campo é conservativo e checar se a igualdade é válida $$\frac{\partial P}{\partial y}=\frac{\partial Q}{\partial x}$$

@@ -1,0 +1,1 @@
+Uma função é seccionalmente contínua ou contínua por partes, se existe uma partição de  $p_0,...p_n$ tal que, f(t) é contínua em cada subintervalo $p_{i+1}$ e os limites laterais sejam $\lim_{t^- \to p_i} f(t)$ e $\lim_{t^+ \to p_i} f(t)$ são finitos

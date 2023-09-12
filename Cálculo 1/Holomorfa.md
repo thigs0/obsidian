@@ -1,0 +1,3 @@
+- [[Funções]] Holomorfas são mais fortes do que diferenciabilidade real
+- Se uma função é holomorfa, temos que ela é infinitamente diferenciável
+- 
