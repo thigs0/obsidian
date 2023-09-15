@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação Linear/Método Big-M.md",
+                "file": "Programação Linear/Método simplex.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tópicos em otimização/Tarefa 2.md",
+                "file": "Programação Linear/Método simplex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tópicos em otimização/Tarefa 2.md",
+                "file": "Programação Linear/Método simplex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tópicos em otimização/Tarefa 2.md"
+                "file": "Programação Linear/Método simplex.md"
               }
             }
           },
@@ -193,10 +192,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fc78a6751b0d256a",
+  "active": "0ef7e6657602a689",
   "lastOpenFiles": [
-    "Tópicos em otimização/Tarefa 1.md",
+    "Programação Linear/Método Big-M.md",
     "Tópicos em otimização/Tarefa 2.md",
+    "Tópicos em otimização/Tarefa 1.md",
     "aprendizado de máquina/Regressão Ridge.md",
     "aprendizado de máquina/Regressão logistica.md",
     "aprendizado de máquina/Regressão Lasso.md",
@@ -205,7 +205,6 @@
     "data",
     "Programação Linear/Método simplex.md",
     "Tópicos em otimização/Discos de Gershgorin.md",
-    "Programação Linear/Método Big-M.md",
     "Programação Linear/Modelagem.md",
     "Programação Linear/Resolução gráfica.md",
     "Programação Linear/Solução básica.md",

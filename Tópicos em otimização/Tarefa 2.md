@@ -1,4 +1,4 @@
-Função perda
+	1Função perda
 $h:S\times S\to R_+$ 
 Quero minimizar
 $f(x)=\frac{1}{n}\sum_{j=1}^n h(g(u_j,x)_jv_j)$
