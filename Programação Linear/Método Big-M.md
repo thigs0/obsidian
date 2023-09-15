@@ -12,4 +12,4 @@ $y_i$ são as mesmas variáveis artificiais como na fase 1 do  método das duas 
 
 $Resolver$
 $\min z=x_1-x_2+2x_3$
-$s.a:\begin{cases}x_1+x_2geq 3\\ -x_1+x_2\leq 1\\ x_j\geq 0\end{cases}$  
+$s.a:\begin{cases}x_1+x_2\geq 3\\ -x_1+x_2\leq 1\\ x_j\geq 0\end{cases}$  

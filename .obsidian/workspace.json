@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aprendizado de máquina/Regressão logistica.md",
+                "file": "aprendizado de máquina/Problemas multiclasses.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4584b40984f63c79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tópicos em otimização/Tarefa 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc78a6751b0d256a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tópicos em otimização/Tarefa 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "aprendizado de máquina/Regressão logistica.md",
+                "file": "Tópicos em otimização/Tarefa 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "aprendizado de máquina/Regressão logistica.md",
+                "file": "Tópicos em otimização/Tarefa 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "aprendizado de máquina/Regressão logistica.md"
+                "file": "Tópicos em otimização/Tarefa 2.md"
               }
             }
           },
@@ -169,20 +193,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c86e2b793357f23a",
+  "active": "fc78a6751b0d256a",
   "lastOpenFiles": [
-    "Programação Linear/Modelagem.md",
-    "Programação Linear/Método simplex.md",
-    "Programação Linear/Resolução gráfica.md",
-    "Programação Linear/Info.md",
-    "Programação Linear/Método Big-M.md",
-    "Programação Linear/Solução básica.md",
-    "aprendizado de máquina/Regressão Lasso.md",
-    "aprendizado de máquina/Método das equações normais.md",
-    "aprendizado de máquina/Regressão elastic net.md",
+    "Tópicos em otimização/Tarefa 1.md",
+    "Tópicos em otimização/Tarefa 2.md",
     "aprendizado de máquina/Regressão Ridge.md",
+    "aprendizado de máquina/Regressão logistica.md",
+    "aprendizado de máquina/Regressão Lasso.md",
+    "data 2",
+    "data 1",
+    "data",
+    "Programação Linear/Método simplex.md",
+    "Tópicos em otimização/Discos de Gershgorin.md",
+    "Programação Linear/Método Big-M.md",
+    "Programação Linear/Modelagem.md",
+    "Programação Linear/Resolução gráfica.md",
+    "Programação Linear/Solução básica.md",
+    "Matemática discreta/Série geométrica generalizada.md",
+    "Matemática discreta/Binomial generalizada.md",
+    "Poesia/Esperança.md",
     "aprendizado de máquina/Problemas multiclasses.md",
-    "aprendizado de máquina/Cart.md",
-    "aprendizado de máquina/Acurácia.md"
+    "aprendizado de máquina/Regressão Linear usando Métodos do Gradiente.md",
+    "aprendizado de máquina/Classificador.md",
+    "aprendizado de máquina/Bias.md",
+    "aprendizado de máquina/Acurácia.md",
+    "aprendizado de máquina/Regressão elastic net.md",
+    "aprendizado de máquina/Método das equações normais.md",
+    "Programação Linear/Info.md",
+    "aprendizado de máquina/Cart.md"
   ]
 }
