@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "aprendizado de máquina/Cart.md",
+                "file": "Programação Linear/Método simplex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "aprendizado de máquina/Cart.md",
+                "file": "Programação Linear/Método simplex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "aprendizado de máquina/Cart.md"
+                "file": "Programação Linear/Método simplex.md"
               }
             }
           },
@@ -193,8 +192,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c86e2b793357f23a",
+  "active": "0ef7e6657602a689",
   "lastOpenFiles": [
+    "aprendizado de máquina/Cart.md",
     "aprendizado de máquina/Classificador.md",
     "aprendizado de máquina/Método das equações normais.md",
     "aprendizado de máquina/Problemas multiclasses.md",
@@ -220,7 +220,6 @@
     "Poesia/Esperança.md",
     "aprendizado de máquina/Bias.md",
     "aprendizado de máquina/Acurácia.md",
-    "Programação Linear/Info.md",
-    "aprendizado de máquina/Cart.md"
+    "Programação Linear/Info.md"
   ]
 }
