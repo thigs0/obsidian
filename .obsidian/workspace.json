@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aprendizado de máquina/Problemas multiclasses.md",
+                "file": "aprendizado de máquina/Cart.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação Linear/Método simplex.md",
+                "file": "aprendizado de máquina/Cart.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação Linear/Método simplex.md",
+                "file": "aprendizado de máquina/Cart.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação Linear/Método simplex.md"
+                "file": "aprendizado de máquina/Cart.md"
               }
             }
           },
@@ -192,18 +193,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0ef7e6657602a689",
+  "active": "c86e2b793357f23a",
   "lastOpenFiles": [
-    "Programação Linear/Método Big-M.md",
-    "Tópicos em otimização/Tarefa 2.md",
-    "Tópicos em otimização/Tarefa 1.md",
-    "aprendizado de máquina/Regressão Ridge.md",
-    "aprendizado de máquina/Regressão logistica.md",
+    "aprendizado de máquina/Classificador.md",
+    "aprendizado de máquina/Método das equações normais.md",
+    "aprendizado de máquina/Problemas multiclasses.md",
+    "aprendizado de máquina/Regressão elastic net.md",
     "aprendizado de máquina/Regressão Lasso.md",
+    "aprendizado de máquina/Regressão Linear usando Métodos do Gradiente.md",
+    "aprendizado de máquina/Regressão logistica.md",
+    "aprendizado de máquina/Regressão softmax.md",
+    "aprendizado de máquina/Regressão Ridge.md",
+    "Programação Linear/Método simplex.md",
+    "Tópicos em otimização/Tarefa 2.md",
+    "Programação Linear/Método Big-M.md",
+    "Tópicos em otimização/Tarefa 1.md",
     "data 2",
     "data 1",
     "data",
-    "Programação Linear/Método simplex.md",
     "Tópicos em otimização/Discos de Gershgorin.md",
     "Programação Linear/Modelagem.md",
     "Programação Linear/Resolução gráfica.md",
@@ -211,13 +218,8 @@
     "Matemática discreta/Série geométrica generalizada.md",
     "Matemática discreta/Binomial generalizada.md",
     "Poesia/Esperança.md",
-    "aprendizado de máquina/Problemas multiclasses.md",
-    "aprendizado de máquina/Regressão Linear usando Métodos do Gradiente.md",
-    "aprendizado de máquina/Classificador.md",
     "aprendizado de máquina/Bias.md",
     "aprendizado de máquina/Acurácia.md",
-    "aprendizado de máquina/Regressão elastic net.md",
-    "aprendizado de máquina/Método das equações normais.md",
     "Programação Linear/Info.md",
     "aprendizado de máquina/Cart.md"
   ]
