@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aprendizado de máquina/Cart.md",
+                "file": "Programação Linear/Solução básica.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4a8ca14625d46057",
@@ -192,9 +193,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0ef7e6657602a689",
+  "active": "cdc546af7a0e1288",
   "lastOpenFiles": [
+    "Programação Linear/Solução básica.md",
     "aprendizado de máquina/Cart.md",
+    "Programação Linear/Método simplex.md",
     "aprendizado de máquina/Classificador.md",
     "aprendizado de máquina/Método das equações normais.md",
     "aprendizado de máquina/Problemas multiclasses.md",
@@ -204,7 +207,6 @@
     "aprendizado de máquina/Regressão logistica.md",
     "aprendizado de máquina/Regressão softmax.md",
     "aprendizado de máquina/Regressão Ridge.md",
-    "Programação Linear/Método simplex.md",
     "Tópicos em otimização/Tarefa 2.md",
     "Programação Linear/Método Big-M.md",
     "Tópicos em otimização/Tarefa 1.md",
@@ -214,7 +216,6 @@
     "Tópicos em otimização/Discos de Gershgorin.md",
     "Programação Linear/Modelagem.md",
     "Programação Linear/Resolução gráfica.md",
-    "Programação Linear/Solução básica.md",
     "Matemática discreta/Série geométrica generalizada.md",
     "Matemática discreta/Binomial generalizada.md",
     "Poesia/Esperança.md",
