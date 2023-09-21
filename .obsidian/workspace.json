@@ -25,18 +25,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aprendizado de máquina/Regressão logistica.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4584b40984f63c79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Tópicos em otimização/Tarefa 2.md",
                 "mode": "source",
                 "source": false
@@ -49,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tópicos em otimização/Untitled.md",
+                "file": "Tópicos em otimização/Tarefa3.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tópicos em otimização/Untitled.md",
+                "file": "Tópicos em otimização/Tarefa 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tópicos em otimização/Untitled.md",
+                "file": "Tópicos em otimização/Tarefa 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tópicos em otimização/Untitled.md"
+                "file": "Tópicos em otimização/Tarefa 2.md"
               }
             }
           },
@@ -193,15 +181,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fc78a6751b0d256a",
+  "active": "c86e2b793357f23a",
   "lastOpenFiles": [
-    "Programação Linear/Método simplex.md",
-    "Tópicos em otimização/Untitled.md",
+    "Tópicos em otimização/Tarefa3.md",
     "Tópicos em otimização/Tarefa 2.md",
+    "aprendizado de máquina/Regressão logistica.md",
+    "Tópicos em otimização/files/tarefa4",
+    "Tópicos em otimização/files/plano2",
+    "Tópicos em otimização/files/tarefa3",
+    "Tópicos em otimização/files",
+    "Tópicos em otimização/arquivos.md",
+    "Programação Linear/Método simplex.md",
     "tarefa3 1.txt",
     "tarefa3.txt",
     "Tópicos em otimização/Tarefa 1.md",
-    "aprendizado de máquina/Regressão logistica.md",
     "Programação Linear/Solução básica.md",
     "aprendizado de máquina/Cart.md",
     "aprendizado de máquina/Classificador.md",
@@ -223,7 +216,6 @@
     "Matemática discreta/Binomial generalizada.md",
     "Poesia/Esperança.md",
     "aprendizado de máquina/Bias.md",
-    "aprendizado de máquina/Acurácia.md",
-    "Programação Linear/Info.md"
+    "aprendizado de máquina/Acurácia.md"
   ]
 }
