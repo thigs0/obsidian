@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação Linear/Método simplex.md",
+                "file": "Programação Linear/Problema dual.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tópicos em otimização/Tarefa 2.md",
+                "file": "Programação Linear/Problema dual.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tópicos em otimização/Tarefa 2.md",
+                "file": "Programação Linear/Problema dual.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tópicos em otimização/Tarefa 2.md"
+                "file": "Programação Linear/Problema dual.md"
               }
             }
           },
@@ -181,17 +180,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c86e2b793357f23a",
+  "active": "0ef7e6657602a689",
   "lastOpenFiles": [
-    "Tópicos em otimização/Tarefa3.md",
+    "Programação Linear/Método simplex.md",
+    "Programação Linear/Problema dual.md",
     "Tópicos em otimização/Tarefa 2.md",
+    "Tópicos em otimização/Tarefa3.md",
     "aprendizado de máquina/Regressão logistica.md",
     "Tópicos em otimização/files/tarefa4",
     "Tópicos em otimização/files/plano2",
     "Tópicos em otimização/files/tarefa3",
     "Tópicos em otimização/files",
     "Tópicos em otimização/arquivos.md",
-    "Programação Linear/Método simplex.md",
     "tarefa3 1.txt",
     "tarefa3.txt",
     "Tópicos em otimização/Tarefa 1.md",
