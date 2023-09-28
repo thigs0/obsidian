@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tópicos em otimização/Untitled.md",
+                "file": "Tópicos em otimização/Tarefa 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tópicos em otimização/Tarefa3.md",
+                "file": "Tópicos em otimização/Tarefa 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tópicos em otimização/Tarefa3.md",
+                "file": "Tópicos em otimização/Tarefa 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tópicos em otimização/Tarefa3.md"
+                "file": "Tópicos em otimização/Tarefa 2.md"
               }
             }
           },
@@ -182,11 +182,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fc78a6751b0d256a",
+  "active": "c86e2b793357f23a",
   "lastOpenFiles": [
-    "Tópicos em otimização/Untitled.md",
-    "Tópicos em otimização/Tarefa 2.md",
     "Tópicos em otimização/Tarefa3.md",
+    "Tópicos em otimização/Tarefa 2.md",
+    "Tópicos em otimização/Untitled.md",
     "Programação Linear/Problema dual.md",
     "Programação Linear/Método simplex.md",
     "aprendizado de máquina/Regressão logistica.md",
