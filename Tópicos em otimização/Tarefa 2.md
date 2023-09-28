@@ -86,6 +86,34 @@ function minimizador_lucio(x0, f, M, α=10e-4, σ=0.5, ε=10e-9)
     return x_pos;
 end
 
+function minimizador_lucio_grad(x0, f, M, α=10e-4, σ=0.5, ε=10e-9)
+    x_ant = copy(x0)
+    x_pos = copy(x0)
+    k=0; g_ant= f(x_ant, -1)
+    g_pos = copy(g_ant);
+    η = norm(g_pos, Inf) 
+
+    while (η >= ε) && (k < M)
+        if k==0
+            t=1
+        else
+            t = norm(x_pos-x_ant, 2)/norm(g_pos-g_ant, 2)
+        end
+        w = α*(g_pos')*g_pos;
+        fx = f(x_pos)
+        while f(x_pos-t*g_pos) > fx-t*w
+            t =  σ*t;
+        end
+        x_ant = copy(x_pos);
+        x_pos = x_pos-t*g_pos;
+        g_ant = copy(g_pos)
+        g_pos = f(x_pos, -1)
+        η = norm(g_pos, Inf);
+        k = k+1
+    end
+    return x_pos;
+end
+
 function quadratica(x)
     y = 0
     x = x.^2
