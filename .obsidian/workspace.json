@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação Linear/Problema dual.md",
+                "file": "Matemática discreta/Princípio da inclusão e exclusão.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tópicos em otimização/Tarefa 2.md",
+                "file": "Matemática discreta/Princípio da inclusão e exclusão.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tópicos em otimização/Tarefa 2.md",
+                "file": "Matemática discreta/Princípio da inclusão e exclusão.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tópicos em otimização/Tarefa 2.md"
+                "file": "Matemática discreta/Princípio da inclusão e exclusão.md"
               }
             }
           },
@@ -182,12 +181,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c86e2b793357f23a",
+  "active": "0ef7e6657602a689",
   "lastOpenFiles": [
-    "Tópicos em otimização/Tarefa3.md",
-    "Tópicos em otimização/Tarefa 2.md",
-    "Tópicos em otimização/Untitled.md",
+    "Matemática discreta/princípio aditivo.md",
+    "Matemática discreta/Permutação.md",
+    "Matemática discreta/Untitled.md",
+    "Matemática discreta/Série geométrica generalizada.md",
     "Programação Linear/Problema dual.md",
+    "Tópicos em otimização/Tarefa 2.md",
+    "Tópicos em otimização/Tarefa3.md",
+    "Tópicos em otimização/Untitled.md",
     "Programação Linear/Método simplex.md",
     "aprendizado de máquina/Regressão logistica.md",
     "Tópicos em otimização/files/tarefa4",
@@ -214,10 +217,6 @@
     "data",
     "Tópicos em otimização/Discos de Gershgorin.md",
     "Programação Linear/Modelagem.md",
-    "Programação Linear/Resolução gráfica.md",
-    "Matemática discreta/Série geométrica generalizada.md",
-    "Matemática discreta/Binomial generalizada.md",
-    "Poesia/Esperança.md",
-    "aprendizado de máquina/Bias.md"
+    "Programação Linear/Resolução gráfica.md"
   ]
 }

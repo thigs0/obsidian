@@ -10,6 +10,7 @@ Suponha que é válida para um dado n. Tome $A=\{a_1,a_2,...,a_{n+1}\}$
 
 **Exemplo**
 dessaranjo da palavra amor
+
 | amor |      |      |
 | ---- | ---- | ---- |
 | maro | mora | mrao |
