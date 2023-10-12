@@ -6,7 +6,7 @@ Podemos dividir o eixo x em pontos equidistantes por $h$ e entre dois pontos da 
 
 ![[integracao_h.png]]
 
-Contruímos uma função qualquer, traçando uma reta entre os pontos f(a) e f(b). Temos um trapézio, de área e a quadratura do trapézio:
+Construímos uma função qualquer, traçando uma reta entre os pontos f(a) e f(b). Temos um trapézio, de área e a quadratura do trapézio:
 $$\int^a_b f(x) \approx A_{trapezio} = \frac{(f(a)+f(b))*(b-a)}{2}= \frac{f(a)+f(b)}{2}*h$$
 
 Usando esta lógica para a função inteira, obtemos:
