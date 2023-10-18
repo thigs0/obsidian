@@ -20,20 +20,32 @@ escolha $c,d\in \mathbb{R}; a<c<d<b$
 	 $\begin{align} a=c\\ b=b\\ c=d \end{align}$
 
 ```julia
-function min_aurea(a, b, epsilon)
-	if a> b
+function min_rand(f::Function, a::Int64, b::Int64, ε::Int64)
+	if a > b # Deixa a,b em ordem crescente
 		a,b = b,a;
 	end
-	c = a + (b-a)*rand()
+	c = a + (b-a)*rand() #Gera os números aleatórios
 	d = a + (b-a)*rand()
 
-	if c>d
+	if c > d # se c é maior que d, ordenamos
 		c,d = d,c;
 	end
 
-	
-	while abs(a-b) > epsilon
-		
+	while abs(a-b) > ε # se a distância é maior queε  a solução não é boa
+		d = a + (b-a)*rand();
+		if f(c) > f(d)
+			a,b,c = a,d,c;
+		else
+			a,b,c = c,b,d;
+		end
 	end
+	return c;
 end
 ```
+
+Essa função diminui com distância aleatória, queremos agora em cada iteração eliminar pelo menos uma porcentagem do intervalo.
+Assim, escolhemos $c,d$ de modo que
+$$\frac{b-d}{b-a}=\frac{c-a}{b-a}=\frac{d-c}{d-a}=\frac{d-c}{b-c}$$
+assim, temos 
+$c = a+\gamma (b-a)$
+$d=b-\gamma (b-a)$ => $\gamma^2-\gamma +1=0$ então $\displaystyle \gamma =\frac{3-\sqrt{5}}{2}$ 
