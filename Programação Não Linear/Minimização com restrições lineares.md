@@ -47,3 +47,5 @@ $\nabla^2 f(x)=\begin{pmatrix}-2 & 0 & 0 \\ 0 & 2x_3 & 2x_3 \\ 0 & 2x_2 & 0\end{
 **CN1**
 $\nabla f(x) = A^t\lambda$
 $\begin{pmatrix}-2x_1 \\ 2x_2x_3 \\ x_2^2\end{pmatrix}=\begin{pmatrix}1 & 1 \\ 1 & -1 \\ 1 & -1\end{pmatrix}\lambda=\begin{pmatrix}1 \\ 1 \\ 1\end{pmatrix}\lambda_1+\begin{pmatrix}1 \\ -1 \\ -1\end{pmatrix}\lambda_2$
+temos 
+$\begin{cases}-2x_1=\lambda_1+\lambda_2\\ 2x_2x_3=\lambda_1-\lambda_2\\ x_2^2=\lambda_1-\lambda_2 \\ x_1+x_2+x_3=7\\ x_1-x_2-x_3=1\end{cases}$
