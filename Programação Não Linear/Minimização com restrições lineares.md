@@ -49,3 +49,33 @@ $\nabla f(x) = A^t\lambda$
 $\begin{pmatrix}-2x_1 \\ 2x_2x_3 \\ x_2^2\end{pmatrix}=\begin{pmatrix}1 & 1 \\ 1 & -1 \\ 1 & -1\end{pmatrix}\lambda=\begin{pmatrix}1 \\ 1 \\ 1\end{pmatrix}\lambda_1+\begin{pmatrix}1 \\ -1 \\ -1\end{pmatrix}\lambda_2$
 temos 
 $\begin{cases}-2x_1=\lambda_1+\lambda_2\\ 2x_2x_3=\lambda_1-\lambda_2\\ x_2^2=\lambda_1-\lambda_2 \\ x_1+x_2+x_3=7\\ x_1-x_2-x_3=1\end{cases}$
+
+
+$d \in \mathbb{R}^n$, $x \in S$ -> $x+td \in S$ e $\nabla f(x)^td<0$ 
+
+$\begin{align}A(x+td)=b \\ Ax+tAd=b\\ tAd=0\\ Ad=0\\ d\in \mathscr{N}(A)\end{align}$
+
+$\bar x \in S$, $g(\gamma)=f(\underbrace{\bar x +Z\gamma}_{x})$ 
+$Z\in \mathbb{R}^{n\times k}$ , k = n - [[Posto]](A), $\gamma \in \mathbb{R}^k$
+$d=Zw, w\in \mathbb{R}^k$
+$\nabla f(x)^td=\nabla f(x)^tZw = [Z^t\nabla f(x)]^tw = \nabla g(\gamma)^tw$
+
+e temos $$\begin{align}g(\gamma) = f(\bar x + Z\gamma)\\ \nabla g(\gamma)= Z^t\nabla f(\bar x+Z\gamma)\\ \nabla^2g(\gamma)=Z^t\nabla^2f(\bar x+Z\gamma)Z\end{align}$$
+##### Método 1
+$\begin{cases}d=Zw\\ w=-\nabla g(\gamma)=-Z^t\nabla f(x)\end{cases}$
+
+$d = -ZZ^t\nabla f(x)$
+
+##### Método 2
+$\begin{cases}d=Zw\\ \nabla^2 g(\gamma)w=-\nabla g(\gamma)\Rightarrow Z^t\nabla^2 f(x)Z-Z^t\nabla f(x)\end{cases}$
+$d=-Z(Z^t\nabla^2 f(x)Z)^{-1}Z^t\nabla f(x)$
+
+$-\nabla f(x)=\underbrace{d}_{\in \mathscr{N}(A)} ~\oplus~ \underbrace{v}_{\in Im(A^t)}= Zw+A^ty$, multiplicamos por $Z^t$
+-> $-Z^t\nabla f(x)=Z^tZw+Z^tA^ty=Z^tZw+\underbrace{(AZ)^ty}_{0} \Rightarrow w =-(Z^tZ)^{-1}Z^t\nabla f(x)$
+
+
+[[Posto]](A) = m
+$\begin{align}-\nabla f(x)=d+v\\ -\nabla f(x)=d+A^ty\\ -A\nabla f(x)=\underbrace{Ad}_0 + AA^ty\\ y=-(AA^t)^{-1}A\nabla f(x)\end{align}$
+
+$d = -\nabla f(x)+A^t(AA^t)^{-1}A\nabla f(x)$
+$d=-[I-A^t(AA^t)^{-1}A]\nabla f(x)$

@@ -16,6 +16,7 @@ A impuridade de Gini($G_l$ ou $G_r$) é calculada pela expressão$$G=1-\sum_{i=1
 - como alternativa do índice de impuridade de Gini, pode-se usar a entropia dada por$$H=-\sum_{i=1}^kp_i\log_2p_i$$
 em que k é o número de classes
 - Por um lado, o índice de impuridade de Gini é mais rápido e tende a isolar classes mais frequentes, por outro lado, a entropia tende a produzir árvores mais balanceadas
+- é uma medida da aleatoriedade
 
 - *Regularização*
 As árvores de decisão usam uma estratégia gulosa e podem sobre-ajustar o conjunto de treinamento.

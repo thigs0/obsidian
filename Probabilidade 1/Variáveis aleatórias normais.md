@@ -30,7 +30,7 @@ $$Z = \frac{x-\mu}{\sigma},~~Z-N(0,1)$$
 _Exemplo_
 	$\displaystyle P(x \leq a) = P(\frac{x-\mu}{\sigma}\leq \frac{a -\mu}{\sigma}) = P(Z\leq \frac{a-\mu}{\sigma})=\phi(\frac{a-\mu}{\sigma})$ 
 
-Se fizeremos uma função linear de uma distribuição normal, ela também terá distribuição normal
+Se fizermos uma função linear de uma distribuição normal, ela também terá distribuição normal
 $Y = aX+b$ ~ $N(a \mu +b, a^2b^2)$
 
 **Proposição**
