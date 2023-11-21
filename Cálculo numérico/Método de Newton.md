@@ -22,7 +22,7 @@
 		- **Enquanto**  |$\delta$| > critério de parada
 			x = x - f(x)/df(x)
 	
-	- #### Código octave
+
 	```octave
 	function x = newton(f,df,x0)
 	%% f é função que queremos minimizar
@@ -35,7 +35,19 @@
 		endwhile
 	endfunction
 	```
-
+```julia
+function newton(f::Function,df::Function,x0::Float64)
+	#= f é função que queremos minimizar
+	   df derivada que queremos minimizar
+	   x0 é a aproximação inicial=#
+	cont=0;x = x0;
+	while (abs(f(x)) > 1e-16) && (cont < 300)
+		x = x - f(x)/df(x);
+		cont+=1;
+	end
+	return x
+end
+```
 
 Exemplo:
 ```octave

@@ -1,6 +1,6 @@
 
 #### Subgrafo
-- Um grafo $G'= (N', A')$ é um subgrafo de um grafo $G=(N, A)$
+- Um [[Grafo]] $G'= (N', A')$ é um subgrafo de um grafo $G=(N, A)$
 - Uma árvore $G'$ de G é um subgrafo acíclico
 
 **Grafo G**

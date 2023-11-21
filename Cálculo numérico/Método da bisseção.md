@@ -1,4 +1,4 @@
-- Seja a e b tais que F(a).f(b) < 0 --> [[Teorema de Bolzano]]
+- Seja a e b tais que $f(a)\cdot f(b)$ < 0 --> [[Teorema de Bolzano]]
 
 - Demora:
 	$\displaystyle \frac{L}{2^N}<\epsilon$ ; sendo menor do que um valor que  queiramos
@@ -27,15 +27,18 @@
 ```
 **[[Julia]]**
 ```julia
-function bisse(a,b,f, tamanho)
-cont=0;
-while abs(a-b) > tamanho && cont <100
-	m = (a-b)/2;
-	if f(m) > 0
-	a = m;
-	else
-	b = m
+function bisse(a,b,f::Function, tamanho::Float64)
+	cont=0;
+	while abs(a-b) > tamanho && cont <1000
+	println(abs(a-b))
+		m = (a-b)/2;
+		if f(m) > 0
+			a = m;
+		else
+			b = m
+		end
+		cont+=1
 	end
-end
+	return a
 end
 ```
