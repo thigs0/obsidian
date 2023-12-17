@@ -14,3 +14,7 @@ $\huge \textbf{Teorema}$ --> Se $\vec F (x,y)= P(x,y)\hat i + Q(x,y)\hat j$ é u
 O trabalho usa a integral de linha em sua definição $W = \vec F \cdot \vec {AB}$
 Seja $\vec T (x,y,z)$ o vetor tangente a C em (x,y,z), $||\vec T||=1$
 $$\int_C \vec F \cdot \vec {dr}= \int_a^b \vec F(r(t))\cdot \vec r(t)dt = \int_C \vec F \cdot \vec T ds$$
+**Exercício**
+Calcule $\int_C (2+x^2y)ds$
+C é uma semicircunferencial positiva de raio 1
+$\int_0^\pi (2+cos^2(t)sen(t))\sqrt{cos^2(t)+sen^2(t)}dt$

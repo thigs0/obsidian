@@ -1,0 +1,1 @@
+**Definição** $D\subset \mathbb{R}^2$ -> Campo vetorial sobre D é uma função $\vec F:D\to \mathbb{R}^2$ que associa cada ponto (x,y) em D, um vetor $\vec F(x,y)\in mathbb{R^2}$
