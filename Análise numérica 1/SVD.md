@@ -68,7 +68,7 @@ $$u = \frac{1}{\sqrt{5}}\begin{pmatrix}1 & 2 \\ 2 & -1\end{pmatrix},~~~\Sigma = 
 
 ---
 [[Análise numérica 1/Quadrados mínimos|Quadrados mínimos]] com SVD
-	Sejam $A \in \mathbb{R}^{m_xn}$, r=Posto(A) e $b \in \mathbb{R}^n$. COnsidere o sistema de equações Ax= b
-	com  $x \in \mathbb{R}^n$. Se m>n, então o sistema é sobredeterminado. Logo, Não pdoemos esperar encontrar uma solução exata. Vamos procurar um x tal que $\|b -Ax\|_2$ seja minimizado.
+	Sejam $A \in \mathbb{R}^{m_xn}$, r=Posto(A) e $b \in \mathbb{R}^n$. Considere o sistema de equações Ax= b
+	com  $x \in \mathbb{R}^n$. Se m>n, então o sistema é sobredeterminado. Logo, Não podemos esperar encontrar uma solução exata. Vamos procurar um x tal que $\|b -Ax\|_2$ seja minimizado.
 - Se $m \geq n$ e posto(A)=n, então o problema  de quadrados mínimos tem solução única
 - Se $Posto(A) <n$, então a solução é única e existem muitos valores de $x \in \mathbb{R}^n$ para os quais $\|b - Ax\|_2$ é minimizado
