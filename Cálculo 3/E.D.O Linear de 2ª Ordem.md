@@ -1,7 +1,7 @@
 
 - **Definição**
-	D é o operador de derivaçãod e f e (D-3)y, derivavamos e multiplicamos o resultado por -3;
-	vantagem de drescerver a equação característica
+	D é o operador de derivação e f e (D-3)y, derivávamos e multiplicamos o resultado por -3;
+	vantagem de decrescer a equação característica
 
 
 **_Teorema_**
