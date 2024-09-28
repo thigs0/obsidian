@@ -10,7 +10,7 @@ $\displaystyle \frac{n-1}{n} \rightarrow 1$ dado um $\epsilon >0$. Existe N t.q
 $\displaystyle \left| \frac{n-1}{n}-1\right| < \epsilon$ 
 $\displaystyle \left| \frac{1}{n}\right| < \epsilon$ -> n > $1/\epsilon$. basta tomar N como n
 
-- Toda sequência convergênte é limitada
+- Toda sequência convergente é limitada
 	$|a_k| <k$
 
 **Uma sequência que não converge é dita que [[diverge]]** 
@@ -37,7 +37,7 @@ $\displaystyle \left| \frac{1}{n}\right| < \epsilon$ -> n > $1/\epsilon$. basta 
 **Teorema**:
 	Toda [[Sequência monôtona]] e limitada é convergente
 	Prova:
-	Pelo [[Axioma da completude]], existe a menor cotas uperior L 
+	Pelo [[Axioma da completude]], existe a menor cotas superior L 
 	$a_n \leq L$ Existe N tal que $L - \epsilon \leq a_N < a_n \leq L < L + \epsilon$ => $L-\epsilon < a_n < L + \epsilon$
 	$|a_n-l| < \epsilon;~~n \geq N$
 

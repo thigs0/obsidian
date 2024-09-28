@@ -5,5 +5,5 @@ $p \equiv \frac{d(m v)}{dt}$
 quando avaliamos a massa constante, para uma partícula.
 $p=m\frac{dv}{dt}=ma$, em que $a$ é a aceleração
 
-**[[3° lei de newton]]**
+**[[3° lei de Newton]]**
 	Se dois corpos exercem força em si, então as forças são iguais em magnitude e opostos em direção

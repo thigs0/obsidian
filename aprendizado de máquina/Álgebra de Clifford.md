@@ -20,7 +20,7 @@ geométrico.
 
 ### Produto geométrico
 O produto geométrico é definido com base nos elementos da base $\gamma_1,...,\gamma_d$ de $\mathscr{V}$
-$\gamma_i\gamma_j=\begin{cases}-\gamma_i\gamma_j,i\neq j\\ 1,~i=j~~e~~i=0,...,p\\ -1,~i=j~~e~~i=p+1,....,p+q\\ 0,~i=j~~e~~i=p+q+1,...,d\end{cases}$
+$\gamma_i\gamma_j=\begin{cases}-\gamma_j\gamma_i,i\neq j\\ 1,~i=j~~e~~i=0,...,p\\ -1,~i=j~~e~~i=p+1,....,p+q\\ 0,~i=j~~e~~i=p+q+1,...,d\end{cases}$
 em que $p,q\in\{0,....,d\}$ e definem a álgebra, com $p + q + r = d,$.
 $Cl(p, q, r)$. Escrevemos $Cl(p, q)$ ≡ $Cl(p, q, 0)$, para r = 0.
 
@@ -45,8 +45,8 @@ identificadas com os [[co-quatérnios]], também conhecidos como
 | $\gamma_2$    | $-\gamma_{12}$ | 1             | $-\gamma_1$   |
 | $\gamma_{12}$ | $-\gamma_2$    | $\gamma_1$    | -1            |
 
-| $cl(2,0)$     | $\gamma_1$     | $\gamma_2$    | $\gamma_{12}$ |
-| ------------- | -------------- | ------------- | ------------- |
-| $\gamma_1$    | 1              | $\gamma_{12}$ | $\gamma_2$    |
-| $\gamma_2$    | $-\gamma_{12}$ | -1            | $\gamma_1$    |
+| $cl(2,0)$  | $\gamma_1$     | $\gamma_2$    | $\gamma_{12}$ |
+| ---------- | -------------- | ------------- | ------------- |
+| $\gamma_1$ | 1              | $\gamma_{12}$ | $\gamma_2$    |
+| $\gamma_2$ | $-\gamma_{12}$ | -1            | $\gamma_1$    |
 | $\gamma_{12}$ | $-\gamma_2$    | $-\gamma_1$   | 1             |

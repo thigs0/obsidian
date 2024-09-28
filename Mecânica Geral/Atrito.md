@@ -40,3 +40,11 @@ Lançamento de uma partícula com resistência do ar
 ![[Mecânica Geral/imagem/Untitled Diagram 1.svg]]
 $m r=m\frac{dv}{dt}=-mg\hat y-bv$
 conseguimos rescrever as componentes
+$m\ddot x=-b\dot x m$, 
+$m\ddot y=-mb\dot y-mg$
+
+- Para componente em $x$
+$\ddot x=-b\dot x$ ->    $\dot x=-bx+C$   ->   $x$
+
+- Para compenente y
+$\ddot y=-b\dot y-g$  ->  $\dot y=-by-gt$  ->

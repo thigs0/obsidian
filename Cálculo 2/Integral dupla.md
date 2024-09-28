@@ -1,3 +1,4 @@
+- Podemos calcular a integral dupla como o cálculo de duas [[Integral]]
 Determine o volume do sólido $S$ delimitado pelo paraboloide elíptico $x^2+2y^2+z=16$ e os planos x=2,y=2 e os 3 planos coordenados
 
 $R=[0,2]\times [0,2]$; $S=R\times \{ 0\leq z\leq 16-x^2-2y^2\}$
