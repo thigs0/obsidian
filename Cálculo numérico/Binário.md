@@ -11,7 +11,7 @@
 
 ```python
 
-def DecimalToBinario(number):  
+def DecimalToBinario(number::int):  
     k=number  
     temp = ''  
     while k != 0:   

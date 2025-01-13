@@ -60,3 +60,17 @@ g(x) = (sin(x))^2
 h(x) = sin(x^2)
 
 ```
+
+
+#### Teorema
+Seja $f:I\to m$ [[Contínua]] e [[Função injetora]]. Então a inversa $g:f(I)=j\to I$ é contínua e f é [[função monôtona]].
+**Demonstração**:
+Seja $I=[a~,b]$. Assume que $f(a)<f(b)$, vamos provar que f é crescente
+Seja $a<x<y<b; ~f(x)>f(y)$
+
+caso 1: $f(a)<f(y)$
+$f(a)<f(y) \Rightarrow f(a)<f(y)<f(x)\Rightarrow \exists c\in (a,x); f(c)=f(y)$
+note que: $y\neq c$
+ABSURDO: f é injetora
+
+Caso 2: $f(y)<f(a)\Rightarrow f(y)<f(a)<f(b)\Rightarrow \exists c\in (y,b);f(c)=f(a)$

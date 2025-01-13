@@ -18,3 +18,9 @@ Criamos um referencial A do lado esquerdo. Este é o referencial do próprio blo
 	Neste referencial a luz se move em direção ao espelho, porém ela tem uma componente perpendicular $\vec v_0$. Pelo [[Teorema de Pitágoras]] temos: $\displaystyle (c \Delta t)^2 = (\vec v_0 \Delta t)^2 + L^2$ -> 
 	
 	Substituindo L do referencial da esquerda no da direita --> $\displaystyle (c \Delta t)^2 = (\vec v_0 \Delta t)^2 + (c\Delta t')^2$  = $c^2 \Delta t^2 = v_0^2 \Delta t^2 + c \Delta t'^2$ -> $\Delta t ^2 (c^2 -v^2) = c^2 \Delta t'^2$ -> $\displaystyle \Delta t ^2 = \frac{c^2 \Delta t'^2}{(c^2 -v^2)}$ --> $\displaystyle \Delta t = \frac{c \Delta t'^2}{\sqrt{c^2-v^2}}$ = $\displaystyle \frac{c \Delta t'}{\sqrt{c^2(1-\frac{v^2}{c^2})}}$ = $\displaystyle \frac{\Delta t'}{\sqrt{1- \frac{v_0^2}{c^2} }}$ ; $\displaystyle \gamma = \frac{1}{\sqrt{1- \frac{v_0^2}{c^2} }}$ ---> $$\Delta t = \gamma \Delta t'$$
+
+- Novo princípio da [[Inercia]] 
+Queremos escrever o prncípio da inércia como um princípio de ação mínima
+$$S=-mc^2\int dt\sqrt{1-\frac{1}{c^2}\left(\frac{dx}{dt}\right)^2}\Rightarrow L=-mc^2\sqrt{1-\frac{v^2}{c^2}}$$
+- **Momento conjugado a x** : $p_x=\frac{\partial L}{\partial \dot x}=-mc^2\frac{d}{dx}\left( \sqrt{1-\frac{\dot x^2}{c^2}} \right)=\frac{m\dot x}{\sqrt{1-\frac{v^2}{c^2}}}$
+- **Hamiltoniano**: $\displaystyle H=p_x\dot x-L=\frac{m\dot x^2}{\sqrt{1-\frac{v^2}{c^2}}}+mc^2\sqrt{1-\frac{v^2}{c^2}}=\frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}}$

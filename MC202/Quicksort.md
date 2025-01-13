@@ -1,4 +1,4 @@
-Esta técnica particiona a sequência em relação a um pivot r ed modo que os elementos à esquerda de r sejam menores que os elementos à direita de r.
+Esta técnica particiona a [[Análise 1/Sequência|Sequência]] em relação a um pivot r em modo que os elementos à esquerda de r sejam menores que os elementos à direita de r.
 
 ```c
 void OrdenaPorParticao(int *A, int p, int q){
@@ -11,4 +11,4 @@ void OrdenaPorParticao(int *A, int p, int q){
 }
 ```
 
-Tempo médio é $O(nLogn)$ mas o pior caso é $O(n^2)$ 
+[[Tempo]] médio é $O(nLogn)$ mas o pior caso é $O(n^2)$ 

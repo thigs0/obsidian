@@ -64,5 +64,6 @@ $\mathbb{R}$ não é enumerável
 se $f:\mathbb{N}\to\mathbb{R}\to f$ não é uma [[Função sobrejetora]]
 Vamos construir $I_n$ intervalos de forma que $f(n)\notin I_n$ 
 
-
+**União infinita de conjuntos finitos não é fechado**
+$\displaystyle \mathbb{Q} =\cup_{q\in \mathbb{Q}} \{q\}$ e sabemos que os [[Racionais]] não são fechados
 

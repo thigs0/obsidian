@@ -88,7 +88,7 @@ endfunction
 
 
 ## Decomposição LU
-- Podemos usar o método de gauss para contruir um método de decomposição da matriz M, em uma L inferior e uma U superior
+- Podemos usar o método de gauss para contruir um método de decomposição da [[Matriz]]M, em uma L inferior e uma U superior
 
 $M = \begin{bmatrix} a_1 & a_2 & a_3 & ... & a_n \\ a_1 & a_2 & a_3 & ... & a_n \\ ... & ... & ... & ... & ... \\ a_1 & a_2 & a_3 & ... & a_n \end{bmatrix}$ ; $U =  \begin{bmatrix} a_1 & a_2 & a_3 & ... & a_n \\ 0 & a_2 & a_3 & ... & a_n \\ ... & ... & ... & ... & ... \\ 0 & 0 & 0 & ... & a_n \end{bmatrix}$ e $L =  \begin{bmatrix} a_1 & 0 & 0 & ... & 0 \\ a_1 & a_2 & 0 & ... & 0 \\ ... & ... & ... & ... & ... \\ a_1 & a_2 & a_3 & ... & a_n \end{bmatrix}$
 Normalmente $U$  sai da decomposição pelo método de Gauss
@@ -98,7 +98,7 @@ A vantagem vêm de podermos realizar as operações para a mesma matrix A com um
 
 $\displaystyle Ax = B \Rightarrow LUx = B$; podemos decompor em dois sistemas
 
-$\begin{cases} Ly = b \\ Ux = y\end{cases}$ ; Este sistema é simples de se revolver por tratar de matrizes triangulares
+$\begin{cases} Ly = b \\ Ux = y\end{cases}$ ; Este [[Sistema linear]] é simples de se revolver por tratar de matrizes triangulares
 
 Quando tivermos que fazer a fatoração com pivoteamento teremos $PA= LU$ e precisamos preparar o vetor b para a a solução
 $$Ax = b \Rightarrow PAx= Pb \Rightarrow LUx=Pb \Rightarrow  \begin{cases} Ly=pb \\ Ux =  y\end{cases}$$

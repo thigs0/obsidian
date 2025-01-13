@@ -18,7 +18,7 @@ y(b) = \beta\end{cases}$$
 	Se fosse o ponto e o anterior, se chamaria diferença atrasada
 
 	Se subtratirmos a diferença avançada da atrasada, obtemos
-	$\displaystyle y(x_{i+1})-y(x_{i-1}) = 2hy'(x_i) + \frac{h^3}{3!}(y'''(\sigma)+y'''(\sigma))$ ; o termo de h³ é analisado como duas vezes um y''' médio, isolamos o y' e obtemos
+	$\displaystyle y(x_{i+1})-y(x_{i-1}) = 2hy'(x_i) + \frac{h^3}{3!}(y'''(\sigma)+y'''(\sigma))$ ; o termo de $h^3$ é analisado como duas vezes um y''' médio, isolamos o y' e obtemos
 
 	$$y'(x_i) = \frac{y(x_{i+1})-y(x_{i-1})}{2h}$$e é chamada de diferença centrada e é melhor do que as últimas duas citadas
 

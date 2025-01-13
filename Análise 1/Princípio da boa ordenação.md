@@ -1,0 +1,1 @@
+O princício diz que todo [[Conjunto]] não vazio formado por números  naturais possui um menor elemento. Este princípio é equivalente á [[Complementos de matemática/Indução|Indução]] finita

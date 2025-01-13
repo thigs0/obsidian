@@ -1,0 +1,1 @@
+Um corpo é um objeto matemático munido das propriedades de adição e multiplicação e que satisfazem condições chamadas [[condições de corpo]]

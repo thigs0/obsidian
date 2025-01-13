@@ -5,7 +5,7 @@ $A\subset \mathbb{R}$, $A$ é aberto se e somente se $F=\mathbb{R}-A$ é fechado
 $F$ é fechado, $a\in A$, $a \notin F$.  Então $\exists$ uma vizinhança V de a; $V\cap F=\emptyset,~v\subset A$ 
 a é um ponto interior
 - Provando  a ida
-$A$ é um [[Conjunto Aberto]], temos que ver que $F$ é fechado? a ponto aderente de $F$, para tda vizinhança V de a $V\cap F\neq \emptyset$ -> $V\notset A$  a não é um ponto interior de A, $a\notin A$ , $a\in F$ 
+$A$ é um [[Conjunto Aberto]], temos que ver que $F$ é fechado? a ponto aderente de $F$, para tda vizinhança V de a $V\cap F\neq \emptyset$ -> $V\notsubset A$  a não é um ponto interior de A, $a\notin A$ , $a\in F$ 
 
 
 #### teorema
