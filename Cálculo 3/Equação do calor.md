@@ -1,7 +1,7 @@
 É dada pela equação
 $$\Large u_t = ku_{xx}$$
 E sempre supomos que 
-- A seção trsnsversal é bem menor que o comprimento da barra
+- A seção transversal é bem menor que o comprimento da barra
 - As extremidades têm o mesmo valor e são conhecidos
 
 ### Resolução por separação

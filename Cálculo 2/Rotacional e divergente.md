@@ -8,7 +8,7 @@ $\Delta f = \nabla^2f = \nabla\nabla f = div(grad~f)$ -Operador de Laplace
 
 
 ### [[Rotacional]] 
----> Se $\vec F = P\hat i+ Q \hat j+ R \hat k$ é  um campo vetorial em R³ e as derivadas parciais de P,q e R existem, então o rotacional de F é o campo vetorial de R³ definido por:$$Rot~\vec F = \left( \frac{\partial R}{\partial y}- \frac{\partial Q}{\partial z}\right)\hat i + \left( \frac{\partial P}{\partial z}-\frac{\partial R}{\partial x}\right)\hat j + \left( \frac{\partial Q}{\partial x}-\frac{\partial P }{\partial y}\right) \hat k$$
+---> Se $\vec F = P\hat i+ Q \hat j+ R \hat k$ é  um [[Campo vetorial]] em $\mathbb{R}^3$ e a [[Derivada Parcial]] de P,Q e R existem, então o rotacional de F é o campo vetorial de $\mathbb{R}^3$ definido por:$$Rot~\vec F = \left( \frac{\partial R}{\partial y}- \frac{\partial Q}{\partial z}\right)\hat i + \left( \frac{\partial P}{\partial z}-\frac{\partial R}{\partial x}\right)\hat j + \left( \frac{\partial Q}{\partial x}-\frac{\partial P }{\partial y}\right) \hat k$$
 
 --> $\nabla$ é denominado operador diferencial vetorial
 Quando ele opera em uma função escalar, gera o gradiente. Podemos pensar nele como o vetor $\displaystyle \nabla = \frac{\partial}{\partial x}\hat i+ \frac{\partial}{\partial y} \hat j+\frac{\partial }{\partial z}\hat k$ 
@@ -19,7 +19,7 @@ P & Q & R
 \end{vmatrix}$$
 Assim $Rot~\vec F = \nabla \times \vec F$ 
 
-$\large \textbf{teorema}$ --> Se **F** é uma função de três variáveis  que tem [[Derivada]]s parciais de segunda ordem contínuas, então o rotacional do gradiente é zero:$$rot(\nabla f) = \vec 0$$ Como o campo $\vec F$ é conservativo de forma $\nabla f$. Então:
+$\large \textbf{teorema}$ --> Se **F** é uma [[função]] de três variáveis  que tem [[Derivada]]s parciais de segunda ordem contínuas, então o rotacional do gradiente é zero:$$rot(\nabla f) = \vec 0$$ Como o campo $\vec F$ é conservativo de forma $\nabla f$. Então:
 	Se $\vec F$ é conservativo, então rot $\vec F$ = 0
 
 **Exercícios**:

@@ -1,4 +1,4 @@
-oUma [[Variável Aleatória]] X tem distribuição gama com parâmetros $\alpha > 0$ e $\lambda >0$, e $\Gamma(x)$ é a [[Função Gamma]] se sua fdp é dada por:
+Uma [[Variável Aleatória]] X tem distribuição gama com parâmetros $\alpha > 0$ e $\lambda >0$, e $\Gamma(x)$ é a [[Função Gamma]] se sua fdp é dada por:
 
 $$\Large f(x) = \frac{\lambda^\alpha}{\Gamma(\alpha)}x^{\alpha -1} e^{-\alpha x} \mathbb{I}_{[0, \infty]}^{(x)}$$
 com $\alpha = 1$ e $\lambda =2$

@@ -1,0 +1,2 @@
+- Em geral usamos apenas [[t-norm]]
+- 
