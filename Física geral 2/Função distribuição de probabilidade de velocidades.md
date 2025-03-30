@@ -1,4 +1,5 @@
 - **Distribuição de velocidades**
+- [[função]] para criar uma distribuição para as velocidades em um espaço
 [[Função distribuição de probabilidade de velocidades]]
 $\displaystyle \large P(v) = 4 \pi \left( \frac{M}{2 \pi RT}\right)^{3/2} v^2e^{-Mv^2/2RT}$
 M -> Massa molar

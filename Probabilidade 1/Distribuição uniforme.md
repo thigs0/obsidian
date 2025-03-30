@@ -1,4 +1,4 @@
-Dizemos que X tem distribuição uniforme no intervalo [a, b], se sua função densidade de probabilidade é dada por:
+Dizemos que X tem distribuição uniforme no intervalo [a, b], se sua [[função]]  densidade da[[Função de probabilidade]] é dada por:
 		f(x) = $\displaystyle \large \begin{cases} \frac{1}{b-a}, ~a \leq x \leq b \\ 0, ~c.c\end{cases}$
 		E escrevemos X ~U[a,b] , em que a e b são parâmetros
 		(1) F(x) = $\displaystyle \int_{-\infty}^\infty f(t)dt \xrightarrow{a \leq x \leq b} \int_1^x \frac{1}{b-a}dt= \frac{1}{b-a}.t|_a^x = \frac{x-a}{b-a}$

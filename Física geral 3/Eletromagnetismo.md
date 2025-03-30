@@ -2,6 +2,7 @@
 $$\displaystyle \begin{cases} div ~\vec E =0\\ Rot~\vec E = -\frac{1}{c}\frac{\partial H}{dt}\\ div~ \vec H =0 \\ rot ~\vec H = \frac{1}{c}\frac{\partial \vec E}{dt}\end{cases}$$
 
 
+- considera o [[Rotacional]] e o [[Divergente]] no vácuo
 ### Indutância
 a [[Indutância]] é a tendência de um condutor elétrico se opor a uma mudança na corrente elétrica que flui por ele. A unidade de [L] é Henry
 

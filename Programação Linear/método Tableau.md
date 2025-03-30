@@ -1,4 +1,4 @@
-- baseado no método simplex
+- baseado no [[Método simplex]]
 
 
 **Criamos  a tabela inicial**

@@ -1,4 +1,4 @@
-- Definição, A integral dupla de f sobre o retângulo R é:
+- Definição, A [[Integral]] dupla de f sobre o retângulo R é:
 $$\left| \iint_R f(x,y)dA-\sum\limits_{i=1}^m \sum\limits_{j=1}^n f(x_{ij}^*, y_{ij}^*)\Delta A\right|<\epsilon$$
 - soma dupla de Riemann
 

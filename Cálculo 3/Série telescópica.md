@@ -1,0 +1,1 @@
+É uma [[série]] em que seus valores se repetem posteriormente somando os elementos de modo a cancelar 

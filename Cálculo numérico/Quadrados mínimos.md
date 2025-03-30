@@ -1,8 +1,7 @@
-Dado um conjunto de dados esperimentais y em um eixo x e y são coluna
+Dado um [[Conjunto]] de dados esperimentais y em um eixo x e y são coluna
 
 
-$\large \phi = c_1\phi_1 + c_2\phi_2 + ... + c_n\phi_n$ ; Definimos uma função que achamos que aproxime os pontos
-para uma dada função y(x)
+$\large \phi = c_1\phi_1 + c_2\phi_2 + ... + c_n\phi_n$ ; Definimos uma [[função]] que achamos que aproxime os pontos para uma dada função $y(x)$
 ```functionplot
 ---
 title: Função x^(x^-2)

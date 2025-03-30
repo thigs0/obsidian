@@ -10,3 +10,8 @@ $$\phi_{n+1}(t) = \int_0^tf(s,\phi_n)ds$$
 1. A sequência precisa convergir
 	Para isso estimamos $|\phi_{k+1}(t)-\phi_k(t)|$ do termo geral
 2. Cada passo precisa existir
+
+**Exemplo 1**
+Resolveremos $\begin{cases}\dot y=y\\ y(0)=1\end{cases}$, com $f(t,y)=y$, $t_0=0$ e $y_0=1$ 
+$$y(t)=1+\int_0^t y(s)ds$$
+$$\begin{align}y_0(t)=1\\ y_1(t)=1+\int_0^t 1ds=1+t\\ y_2(t)=1+\int_0^t \end{align}$$

@@ -1,3 +1,4 @@
+- aprimora o [[Método simplex]] 
 ![[O algoritmo dual simplex.pdf]]
 
 
@@ -8,7 +9,7 @@ $\begin{align}\min f(x)=2x_1+3x_2+4x_3\\ \begin{cases}x_1+2x_2+x_3\geq 3\\ 2x_1-
 
 **1º Iteração**
 *Fase 1*
-Solução básica dual factível
+Solução básica dual factível 
 
 $\lambda_1=0$, $\lambda_2=0$ é uma solução dual factível pois satisfaz todas as restrições do problema dual
 $\hat \lambda = \begin{pmatrix}0 \\ 0\end{pmatrix}$, $A=\begin{pmatrix}1 & 2 & 1 & -1 & 0 \\ 2 & -1 & 3 & 0 & -1\end{pmatrix}$, $b=\begin{pmatrix}3 \\ 4\end{pmatrix}$ 

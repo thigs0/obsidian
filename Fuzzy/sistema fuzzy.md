@@ -33,4 +33,10 @@ Dado o peso é $p=10$ e o nível de sujeira é $s=15$, determinamos a quantidade
 $$W_i=\varphi_{A_i}(p)\land \varphi_{A_{2i}}(s),~\forall i=1,2,...,16$$
 $$\begin{align} W_1 = \varphi_\text{Muito Leve}(p)\land \varphi_{\text{Quase limpo}}(s)=0.5\land 0.25=0.25\\ W_2=\varphi_\text{Muito leve}(p)\land \varphi_\text{sujo}(s)=0.5\land 0.25=0.25 \end{align}$$
 
-![[maquinaLavar.png]]
+![[maquinaLavar.png|400]]
+
+### Exemplo Backing up a truck
+**Objetivo:** Estacionar um caminhão num determinado local de um pátio efetuando apenas movimentos para trás e parando com um ângulo de 90° entre o caminhão e o eixo horizontal
+
+- Podemos atualizar a posição do caminhão com com base na distância percorrida $d$ 
+$$\begin{align*}\phi' =\phi +\theta\\ x'=x+d\cos(\phi ')\\ y'=y+d \sin(\phi')\end{align*}$$
