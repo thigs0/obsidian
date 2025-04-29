@@ -21,6 +21,8 @@ $$T(a,m,n,b)(x)=\begin{cases}(x-1)/(m-1), ~a<x<m\\ 1\\ (b-x)/(b-n), ~n<x<b\\ 0 ~
 
 **[[Função de pertinência de Cauchy]]**
 $$\displaystyle C(a,b,c)(x)=\frac{1}{1+|\frac{x-c}{a}|^{2b}}$$
+### Função  de pertinência gaussiana limitada
+$$G(x,\sigma,\delta)=\begin{cases} \exp \left( \frac{(x-\delta)^2}{2\sigma^2} \right),~a\leq x\leq b\\ 0.~~cc \end{cases}$$
 
 ### Operações em conjunto Fuzzy
 

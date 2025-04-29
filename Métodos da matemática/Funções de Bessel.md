@@ -23,3 +23,6 @@ $a_{10}=\displaystyle \frac{-a_8}{2(2(10)^2-v)} = \frac{-a_8}{2(2^25^2 -v)} = \f
 
 Assim $$a_{2k}=\frac{(-1)^k z^{2k+v}}{2^{2k}k!(v+1)_k}$$
 onde $(v+1)_k=(v+1)(v+2)...(v+k)$
+
+- usando a representação em [[Função gama]]
+$$J_v(x)=\sum\limits_{n=0}^\infty \frac{(-1)^n}{\Gamma (n+1)\Gamma (n+v+1)}\left( \frac{x}{2} \right)^{2n+v}$$

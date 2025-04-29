@@ -2,7 +2,6 @@ Funciona para qualquer equação de ordem n na forma
 $y^{(n)}+ f(x)y^{(n-1)}+...+f_n(x)y' = g(x)$
 
 1. Determinar a solução da equação homogênea associada $y_c = c_1y_1 +c_2y_2+...+c_ny_n$
-2. Supomos que a solução particular é de forma $y_p = u_1 (x)y_1 + y_1 + u_2(x)y_2+...+u_ny_n$, que satisfaça a equação
 
 - **Ordem 2**
 - $y'' +p(x)y' +q(x)y = f(x)$

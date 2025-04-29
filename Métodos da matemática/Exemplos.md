@@ -10,3 +10,4 @@ Em **Coordenadas esféricas**
 $\vec \nabla .\vec V=\frac{1}{r^2 sen(\theta)}\left[ \frac{\partial }{\partial r}(r^2sen(\theta V_r)) +\frac{\partial }{\partial \theta} (rsen(\theta V_\theta))+\frac{\partial }{\partial \phi }(r V_\phi)\right]$
 
 
+
