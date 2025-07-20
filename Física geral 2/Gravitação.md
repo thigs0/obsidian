@@ -1,6 +1,8 @@
 
-	[[Força]] gravitacional é dada por
+[[Força]] gravitacional é dada por
+	
 $\displaystyle \vec F = \frac{m_1m_2}{r^2}G$; G= $6,67 .10 ^{-11} \frac{N.m^2}{Kg^2}$
+
 e $\displaystyle \vec F \frac{m_1m_2}{|r|^3} \hat r$ 
 
 **[[Teorema das cascas]]**

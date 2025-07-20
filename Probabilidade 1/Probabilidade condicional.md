@@ -16,11 +16,13 @@ $\large \textbf{Definição}$ **(Probabildiade condicional)**
 		
 _Exemplo_:
 	A população de um país consiste em 3 grupos étnicos. Além dsso, cada indivídup pertence a um de 4 grupos sanguineos. A tabela apresenta as probabilidades conjuntas das combinações dos grupos.
+	
 	| Grupo étnico \ Grupo Sanguineo | O     | A     | B     | AB    |
 	| ------------------------------ | ----- | ----- | ----- | ----- |
 	| 1                              | 0,082 | 0,106 | 0,008 | 0,004 |
 	| 2                              | 0,135 | 0,141 | 0,018 | 0,006 |
 	| 3                              | 0,215 | 0,200 | 0,065 | 0,020 |
+
 	Se um indivídeo é selecionado aleatóriamente, qual a probabilidade de pertencer ao grupo sanguineo A dado que pertence ao grupo étnico 3?
 	A: grupo sanguineo A
 	B: Grupo étnico 3

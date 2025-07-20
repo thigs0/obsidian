@@ -22,7 +22,7 @@ $\displaystyle x_i = \frac{b_i - \left( \sum_{j=1}^{i-1}a_{ij}x_j+ \sum_{j=i+1}^
 **Pseudo-algoritmo**
 A <- Matriz de resolução
 x <- codição inicial
-b <- vetor do sistema
+b <- [[Vetor]] do sistema
 **Para** 1 até n
 	**Para** i de 1 até n
 		xn[i] <- b[i]
@@ -67,7 +67,7 @@ Qual a matriz do método de jacobi
 	De modo que $x_n = Mx_{n-1}+C$
 
 **Teorema**
-Se $\displaystyle \|M\| = \max \frac{\|Mx\|}{\|x\|}$ e $\|M\| <1$, então a fórmula cpnverge para qualquer $x^{(0)}$
+Se $\displaystyle \|M\| = \max \frac{\|Mx\|}{\|x\|}$ e $\|M\| <1$, então a fórmula converge para qualquer $x^{(0)}$
 Dem:
 Seja x a solução do problema Ax=b => (x = Mx+c)
 Então subtraindo x = Mx+c de $x^{(k+1)} = Mx^{(k)}+c$, temos $x^{(K+1)} - x = M(x^{(K)}-x)$. Portanto

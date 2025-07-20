@@ -3,7 +3,7 @@ $$\frac{1}{\epsilon}\int_a^{a+\epsilon}g(t)dt=g(\xi)$$
 Como fora do intervalo é 0, temos:
 $\displaystyle \int_0^\infty d_{a, \epsilon}(t)g(t)dt$ ,Tomamos o limite $\displaystyle \lim_{\epsilon \to 0} \int_0^\infty d_{a, \epsilon}(t)g(t)dt =\int_0^\infty \delta_a(t)g(t)dt$  
 
-e temos que o delta de dirac irá realizar uma operação na função g(t)
+e temos que o delta de dirac irá realizar uma operação na [[função]] g(t)
 
 $\displaystyle \int_o^\infty e^{-st}\delta_a (t)= e^{-as}$ ->> $\mathscr{L}\{\delta_a(t)\}= e^{-as}$  
 

@@ -26,3 +26,18 @@ onde $(v+1)_k=(v+1)(v+2)...(v+k)$
 
 - usando a representação em [[Função gama]]
 $$J_v(x)=\sum\limits_{n=0}^\infty \frac{(-1)^n}{\Gamma (n+1)\Gamma (n+v+1)}\left( \frac{x}{2} \right)^{2n+v}$$
+Este citado é conhecido como Bessel de primeira ordem, com as seguintes propriedades
+
+***Propriedades***
+Para $v\in \mathbb{Z}$
+- $\displaystyle e^{\frac{x}{2}(t-t^{-1})}=\sum\limits_{m=-\infty}^\infty J_m(x)t^m$ por expansão do euler por [[Polinômio de Taylor]]
+- $J_n(x)=(-1)^nx^n\left( \frac{1}{x}\frac{d}{dx} \right)^nJ_0(x)$
+**Demonstração**
+n=1 => $J_1(x)=-\frac{x}{x}\frac{d}{dx}J_0=-J_0$
+n=k => $J_k(x)=(-1)^kx^k\left( \frac{1}{x}\frac{d}{dx} \right)^kJ_0$
+n=k+1 => $J_{k+1}=-x^k\frac{d}{dx}\left( \frac{1}{x^k}J_k(x) \right)=-x^k\frac{d}{dx}\left( \frac{x^k}{x^k}(-1)^k\left( \frac{1}{x}\frac{d}{dx} \right)^kJ_0(x) \right)$
+= $(-1)^{k+1}x^{k+1}\left( \frac{1}{x}\frac{d}{dx} \right)^{k+1}J_0(x)$
+- $\displaystyle \frac{d}{dx}(x^vJ_v)=x^vJ_{v-1}$
+- $\frac{d}{dx}(x^{-v}J_v)=-x^{-v}J_{v+1}$
+- $J_{v-1}+J_{v+1}=\frac{2v}{x}J_v$
+- $J_{v-1}-J_{v+1}=2J'_v$ 

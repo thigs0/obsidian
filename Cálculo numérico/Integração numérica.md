@@ -99,7 +99,7 @@ Se quisermos mais subintervalos, dividimos sempre de dois em dois e aplicamos a 
 ## **Erro**
 - integramos o erro da aproximação do polinômio
 
-$\displaystyle Erro =- \frac{1}{90}(\frac{(b-a)}{2})^5 f^{(4)}(\psi)$; Demonstração usa [[Núcleo de Peano]], serve para grau 3
+$\displaystyle Erro =- \frac{1}{90}\left(\frac{(b-a)}{2}\right)^5 f^{(4)}(\psi)$; Demonstração usa [[Núcleo de Peano]], serve para grau 3
 **Na forma composta**
 $\displaystyle -\frac{n}{2}\frac{h^5}{90}$ --> $\displaystyle \frac{(b-a)h^4}{180}f^{(4)}(\psi)$
 	**Demonstração**

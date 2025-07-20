@@ -1,2 +1,2 @@
 - Em geral usamos apenas [[t-norm]]
-- 
+- permite encontrar a [[Relações fuzzy]] entre dois [[Número fuzzy]]

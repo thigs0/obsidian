@@ -1,0 +1,3 @@
+- Calculamos a iluminação nos vértices, assim o brilho fica pouco distribuido
+- Interpolamos as cores
+- mais rápido do que [[Phong Shading]]

@@ -70,3 +70,4 @@ _**Teorema**_:
 	$(y_1y_2''-y_1''y_2)+p(y_1y_2'-y_1'y_2)=0$
 	e este é a derivada do [[Wronskiano]], então
 	$W'+pW=0$, resolvendo encontramos a equação de Abel
+

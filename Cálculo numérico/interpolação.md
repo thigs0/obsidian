@@ -20,10 +20,10 @@ $\begin{bmatrix}1 & x_0 & x_0^2 &...&x_0^n\\ 1 & x_1 & x_1^2 &...&x_1^n\\...&...
 | 2   | 3   |
 | 3   | 10  |
 Se $P(x) = a+bx+cx^2$
-		- P(1) = a -1b +1c = 6
-		- P(2) = a +2b +4c = 3  
-		- P(3) = a +3b +9c = 10
-		$$\begin{bmatrix}
+- $P(1) = a -1b +1c = 6$
+- $P(2) = a +2b +4c = 3$
+- $P(3) = a +3b +9c = 10$
+$$\begin{bmatrix}
 		1 & -1 & 1 & |6\\
 		1 & 2 & 4 &| 3\\
 		1 & 3 & 9& | 10\\
@@ -35,7 +35,7 @@ Se $P(x) = a+bx+cx^2$
 		- $\beta = 1$
 		- $\gamma = 2$
 
-exemplo:
+**exemplo**:
 Dados os pontos:
 
 | x   | y    |
@@ -192,12 +192,14 @@ Exemplos:
 	.
 	.
 	Outro exemplo: Com que precisão podemos aproximar $\sqrt{115}$ usando interpolação quadrática sobre os pontos 100,121 e 144?
-	
+
+
 | x   | $\sqrt{x}$ |
-	| --- | ---------- |
-	| 100 | 10         |
-	| 121 | 11         |
-	| 144 | 12         |
+| --- | ---------- |
+| 100 | 10         |
+| 121 | 11         |
+| 144 | 12         |
+|     |            |
 
 Aproximação quadrática tem 3 pontos --> $\omega(x)=(x-100)(x-121)(x-144)$
 máx(|$\displaystyle \omega(x)$|) = |$\omega '(x)$| = |$43924 - 730 x + 3 x^2$|=0--> x= 134

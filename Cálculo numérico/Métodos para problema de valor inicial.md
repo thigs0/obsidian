@@ -10,7 +10,7 @@ Criamos Métodos para tentar resolver uma [[EDO]] de forma valor inicial
 	- $\textbf{Teorema}$ -> Supomos que:
 		1. f é contínua em R
 		2. f é [[Lipschitz]] contínua em y
-		3. Caso a edo seja de ordem superior, usamos o [[Método de redução de ordem]]
+		3. Caso a [[EDO]] seja de ordem superior, usamos o [[Método de redução de ordem]]
 
 - ### Método de Euler
 	- $\displaystyle y_1 \approx t_1 =y_{(t_0+h)}$ 
@@ -97,16 +97,16 @@ Criamos Métodos para tentar resolver uma [[EDO]] de forma valor inicial
 			
 - ## [[Runge-Kutta]]
 	- Tão correto quanto taylor
-	- Não precisa avaliar a derivada
+	- Não precisa avaliar a [[Derivada]]
 	- Múltiplas avaliações de f
 	Aproximamos a função y pela integral $\displaystyle \large y(t_{n+1})-y(t_n) = \int_{t_n}^{t_{n+1}} f(t,y(t))dt$
 	- ### Método do trapézio ou [[Método de Heun]]
 		Aproximamos a área da integral por um trapézio
 		$$y_{n+1}=y_n + \frac{h_n}{2}[f(t_n,y_n)+f(t_{n+1},y_{n+1})]$$
-		Reorganizando aproximamos $y_{n+1}$ da f com o método de euler, $f$ é a derivada e o sistema é:
+		Reorganizando aproximamos $y_{n+1}$ da f com o método de euler, $f$ é a [[Derivada]] e o sistema é:
 		$$\begin{cases} \hat y = y_n + h_nf(t_n,y_n)\\y_{n+1}=y_n + \frac{h_n}{2}[f(t_n,y_n)+f(t_{n+1},\hat y)]\end{cases}$$
-		##### Algoritmo
-		- Octave
+##### Algoritmo
+- octave
 ```octave
 # Exemplo
 y0 = 1;
@@ -171,7 +171,7 @@ end
 
 Estes dois métodos são exemplos do método de Runge-Kutta de 2º ordem que em sua forma geral é dada por 
 $$u_{n+1} = u_n + \Delta t \beta_0 f(t_n, u_n) + \Delta t \beta_1 f(t_n+\gamma \delta t, u_n + \psi\delta t)$$
-Os parâmetros $\beta_0, \beta_1, \gamma~ e~ \psi$ são escolhidos de maneira que o método seja de ordem 2. isto é começando fazendo a expansão em Taylor da expressão acima e exigimos que ele seja igual a do método de Taylor de ordem 2
+Os parâmetros $\beta_0, \beta_1, \gamma~ e~ \psi$ são escolhidos de maneira que o método seja de ordem 2. isto é começando fazendo a expansão em  [[Polinômio de Taylor]] da expressão acima e exigimos que ele seja igual a do método de Taylor de ordem 2
 Assim, temos
 $$f(t_n, \gamma \Delta t , \psi \Delta t) = f(t_n, u_n) + \gamma \Delta t f_t (u_n, t_n)+ \gamma \Delta t f_u(t_n, u_n) + o(\Delta t^2)$$
 substituindo, obtemos que 
