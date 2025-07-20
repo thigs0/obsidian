@@ -1,7 +1,10 @@
 ### Obsidian
 Obsidian é um aplicativo de anotações que permite construir gráficos, excrever em Latex e tem uma ampla gama de opções. Nele eu fui construindo todo meu conhecimento na matérias em matemática aplicada. Então aqui você podera abrir minha anotações da maneira que seja razoável.
 
-![grafo obsidian](Images/grafo)
+
+## Imagens da árvore de conhecimento
+
+![grafo obsidian](Images/grafo.png)
 
 ![Grafo próximo](Images/near_grafo.png)
 
