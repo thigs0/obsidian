@@ -13,6 +13,8 @@ O conhecimento está organizado em pastas relativas a matérias. Em cada pasta e
 
 - Em cada pasta existe uma subpasta chamada "Imagens" que contém todas as imagens usadas nos artigos locais
 
+- Em cada pasta pode existir uma subpasta chamada "Lista" que contém varias listas de exercícios para fixar um tema
+
 - Cada artigo visa ter um tema expecífico e internamente referenciar outros artigos relevantes sempre em verde claro
 
 - As Fórmulas são construídas usando a linguagem de escrita "Latex"
@@ -29,5 +31,4 @@ O conhecimento está organizado em pastas relativas a matérias. Em cada pasta e
 Conforme vou progredindo na graduação e possivelmente na pós-graduação, irei inserindo cada novo conhecimento como um artigo e conectar com os existentes.
 
 Você é livre para ajudar escrevendo uma artigo.
-
 
