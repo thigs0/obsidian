@@ -1,6 +1,7 @@
 ## Integração numérica ou Quadratura
 - Sabendo a função $\Psi(x)$, queremos aproximar a  $\displaystyle \int \Phi(x)$ 
 - Convergência lenta
+
 Podemos dividir o eixo x em pontos equidistantes por $h$ e entre dois pontos da absissas, traçamos uma retas. Assim, podemos aproximar a área da função como a área em baixo desta linha que forma um trapézio
 
 

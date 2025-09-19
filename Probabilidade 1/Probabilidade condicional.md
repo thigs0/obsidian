@@ -1,4 +1,3 @@
-
 Probabilidade de um evento, sabendo que já ocorreu um evento que afeta ele
 
 $\large \textbf{Definição}$ **(Probabildiade condicional)**

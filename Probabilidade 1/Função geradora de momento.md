@@ -30,14 +30,16 @@ Caso apliquemos em t=0, obtemos o valor esperado de $X^n$
 	e temos $\displaystyle exp\left( t \mu + \frac{(t\mu)^2}{2}\right)$
 
 **Tabela com fgm**
-| **Distribuição**      | **Fgm**                                                    |
-| ----------------- | ------------------------------------------------------- |
-| Poisson           | $exp\left( \lambda (e^t-1)\right)$                      |
-| Geométrica        | ($pe^T$)/($1-(1-p)e^t$)                                 |
-| Binomial negativa | $\displaystyle \left[ \frac{p2^t}{1-(1-p)e^t}\right]^r$ |
-| Uniforme          | $\displaystyle \large\frac{e^{bt}-e^{at}}{t(b-a)}$                          |
-| Exponencial       | $\displaystyle \frac{\lambda}{\lambda -t}$                            |
-| Gama              | $\displaystyle \left(\frac{\lambda}{\lambda -t} \right)^\alpha$                                                        |
+
+| **Distribuição**  | **Fgm**                                                         |
+| ----------------- | --------------------------------------------------------------- |
+| Poisson           | $exp\left( \lambda (e^t-1)\right)$                              |
+| Geométrica        | ($pe^T$)/($1-(1-p)e^t$)                                         |
+| Binomial negativa | $\displaystyle \left[ \frac{p2^t}{1-(1-p)e^t}\right]^r$         |
+| Uniforme          | $\displaystyle \large\frac{e^{bt}-e^{at}}{t(b-a)}$              |
+| Exponencial       | $\displaystyle \frac{\lambda}{\lambda -t}$                      |
+| Gama              | $\displaystyle \left(\frac{\lambda}{\lambda -t} \right)^\alpha$ |
+| Normal            | $\displaystyle e^{\mu t+\frac{\sigma^2}{2}t^2}$                 |
 
 **Propriedades**
 1) A fgm determina unicamente a distribuição de X 

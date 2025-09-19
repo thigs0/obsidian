@@ -1,0 +1,1 @@
+$$f(x,\lambda)=\frac{1}{\lambda}e^{-x/\lambda}$$ 
