@@ -19,6 +19,7 @@ $\displaystyle \large \frac{1}{1-z} = \sum_{n=0}^\infty z^n = 1+z+z^2+z^3+... \h
 $\displaystyle \large e^z = \sum_{n=0}^\infty \frac{z^n}{n!}=1+\frac{z}{1!}+\frac{z^2}{2!}+...$
 $\displaystyle \large Sin(z) = \sum_{n=0}^\infty (-1)^n \frac{z^{2n+1}}{(2n+1)!} = z- \frac{z^3}{3!}+\frac{z^5}{5!}-....$
 	Prova:
+	
 	Temos da definição de [[Seno complexo]] que 
 	$\displaystyle sinh(z) = \frac{e^{iz}-e^{-iz}}{2} = \frac{e^{iz}}{2}- \frac{e^{-iz}}{2}$ 
 	Como conhecemos a série da exponencial, podemos abrir ela

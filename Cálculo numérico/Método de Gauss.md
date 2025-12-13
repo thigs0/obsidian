@@ -91,6 +91,7 @@ endfunction
 - Podemos usar o método de gauss para contruir um método de decomposição da [[Matriz]]M, em uma L inferior e uma U superior
 
 $M = \begin{bmatrix} a_1 & a_2 & a_3 & ... & a_n \\ a_1 & a_2 & a_3 & ... & a_n \\ ... & ... & ... & ... & ... \\ a_1 & a_2 & a_3 & ... & a_n \end{bmatrix}$ ; $U =  \begin{bmatrix} a_1 & a_2 & a_3 & ... & a_n \\ 0 & a_2 & a_3 & ... & a_n \\ ... & ... & ... & ... & ... \\ 0 & 0 & 0 & ... & a_n \end{bmatrix}$ e $L =  \begin{bmatrix} a_1 & 0 & 0 & ... & 0 \\ a_1 & a_2 & 0 & ... & 0 \\ ... & ... & ... & ... & ... \\ a_1 & a_2 & a_3 & ... & a_n \end{bmatrix}$
+
 Normalmente $U$  sai da decomposição pelo método de Gauss
 M = LU
 

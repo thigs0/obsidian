@@ -3,5 +3,6 @@
   "quick-latex",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-functionplot",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "jupymd"
 ]

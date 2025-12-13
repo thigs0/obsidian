@@ -92,7 +92,7 @@ f(x) = -0.15*(x-1)*(x-2) - 2.3*x*(x-2) + 3.05*x*(x-1)
 		
 		
 		Matricialmente
-		$$\begin{bmatrix}
+$$\begin{bmatrix}
 		l_0(x_0) &l_1(x_0)& ... & l_n(x_0)\\
 		l_0(x_1) & l_1(x_1)&... & l_n(x_1)\\
 		...& ...&... &...\\
@@ -104,6 +104,7 @@ a_n\end{bmatrix} = \begin{bmatrix} y_0\\
 y_1\\
 ...\\
 y_n\end{bmatrix}$$
+
 			- O sistema ficaria simples
 				- Identidade
 				- Diagonal

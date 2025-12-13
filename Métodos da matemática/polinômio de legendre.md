@@ -1,5 +1,6 @@
 $$P_n(t)=\frac{(2n)!}{2^n(n!)^2}p_n(t)=\frac{1}{2^nn!}\frac{d^2}{dt^n}(t^2-1)^n$$
 $$\|P_n\|=\sqrt{\frac{2}{2n+1}}$$
+- é solução da [[Equação de Legendre]] de forma $(1-x^2)y''-2xy'+v(v+1)y=0$
 os primérios 6 termos são
 
 | n   | $P_n(x)$                                             |
