@@ -1,3 +1,6 @@
+
+**Demonstração**
+
 ### Para uma função degrau em \( x = 0 \):
 
 $$
@@ -12,41 +15,33 @@ $$
 $$
 S_N(x) = \frac{4}{\pi} \sum_{k=1}^{N} \frac{\sin((2k-1)x)}{2k-1}
 $$
+![[fourier_many_n.png|600]]
 
+é possível analisar o maior valor da [[Séries de Fourier]] conforme avançamos no valor n de aproximação
 
-### Overshoot máximo:
-
-$\lim_{N \to \infty} S_N\left(\frac{\pi}{N}\right) \approx 1.08949$ 
-
-**Tradução:** O valor converge para cerca de 1.0895 em vez de 1, resultando em um overshoot de ~8.95%.
-
-## 🔍 Propriedades Importantes
-
-| Propriedade                     | Descrição                                                       |
-| ------------------------------- | --------------------------------------------------------------- |
-| **Convergência Pontual**        | A série converge para o valor médio no ponto de descontinuidade |
-| **Não Diminuição do Overshoot** | A amplitude máxima do overshoot não diminui com $N \to \infty$  |
-| **Localização**                 | A largura da região afetada diminui com \( N \) aumentando      |
-| **Valor Limite**                | Overshoot ≈ 8.95% do salto da descontinuidade                   |
-
-##  Onde Ocorre
-
-- **Séries de Fourier** em funções com descontinuidades
-- **Transformada de Fourier** truncada
-- **Filtros digitais** com resposta ao impulso de comprimento finito
-- **Reconstrução de sinais** a partir de amostras
-
-### Problemas:
-- **Processamento de Sinais:** Ringing em imagens e áudio
-- **Análise Numérica:** Erros na reconstrução de funções
-- **Engenharia:** Artefatos em filtros digitais
-
-### Soluções Comuns:
-- **Filtros de Suavização** (janelas de Hamming, Hanning, etc.)
-- **Métodos de Regularização**
-- **Uso de funções de base suaves** em vez de senos/cossenos
-
-## 🧪 Demonstração Simples
+| Índice (n) | Valor da Aproximação |
+| ---------- | -------------------- |
+| 0          | 0.00000000           |
+| 1          | 1.07139413           |
+| 2          | 1.20039916           |
+| 3          | 1.18829487           |
+| 4          | 1.18410375           |
+| 5          | 1.18226800           |
+| 6          | 1.18100214           |
+| 7          | 1.18062464           |
+| 8          | 1.18028056           |
+| 9          | 1.17995047           |
+| 10         | 1.17974479           |
+| 11         | 1.17925274           |
+| 12         | 1.17825526           |
+| 13         | 1.17793520           |
+| 14         | 1.17851516           |
+| 15         | 1.17929098           |
+| 16         | 1.17853569           |
+| 17         | 1.17818223           |
+| 18         | 1.17878606           |
+| 19         | 1.17812500           |
+e é possível ver que aparentemente o valor converge para próximo de 1.17
 
 ```python
 # Exemplo simples do Fenômeno de Gibbs
