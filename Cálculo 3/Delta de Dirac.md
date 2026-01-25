@@ -8,7 +8,7 @@ e temos que o delta de dirac irá realizar uma operação na [[função]] g(t)
 $\displaystyle \int_o^\infty e^{-st}\delta_a (t)= e^{-as}$ ->> $\mathscr{L}\{\delta_a(t)\}= e^{-as}$  
 
 
---> _A função degrau_ <--
+### _A função degrau_
 O [[Delta de Dirac]] é a derivada da [[Função degrau]]
 $u_a(t)$ -> $\displaystyle \frac{d}{dt}u_a = \delta_a (t)$ 
 
