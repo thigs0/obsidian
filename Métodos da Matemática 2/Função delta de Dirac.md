@@ -6,7 +6,7 @@ A função $\phi_N(x)$ tende a concentrar em apenas um ponto conforme N cresce, 
 $$\lim_{n\to \infty}\int_{-L}^L \phi_N(x)dx=1$$
 
 Assim, construímos a ''função'' delta de dirac palas suas propriedades de integração
-$$\int_{-\infty}^\infty \delta(x)phi(x)dx=\phi(0)$$
+$$\int_{-\infty}^\infty \delta(x)\phi(x)dx=\phi(0)$$
 
 #### **[[Translação da função delta de dirac]]**
 Seja uma operação de translação denotada por $\delta(x-a)$, obtemos que

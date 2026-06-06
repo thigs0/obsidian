@@ -13,23 +13,24 @@ $\displaystyle \large\mathscr{L} (f(t)) = \int_{0}^{\infty} e^{-St}f(t)dt = \lim
  Então, a transformada de Laplace, definida pela Eq.(4) existe para s>a
 - **Tabela de Laplacianas**
 
-| Função| Laplaciana | Nº   | Restrição             |
-| ------------------------------------------------------ | --------------------------------------------------- | ---- | --------------------- |
-| a (constante)| $\large a\frac{1}{S}$      | (1)  | S>0     |
-| $e^{at}$                                               | $\large \frac{1}{S-a}$                              | (2)  | S-a>0 e S>a           |
-| $Cosh(kt)$                                             | $\large \frac{S}{S^2-K^2}$                          | (3)  | S> $\text{pip k pip}$ |
-| $Senh(kt)$                                             | $\large \frac{K}{S^2-k^2}$                          | (4)  | S > pipe k pipe       |
-| $Cos (kt)$                                             | $\large \frac{S}{S^2+K^2}$                          | (5)  | S>0                   |
-| $Sen (kt)$                                             | $\large \frac{K}{S^2 +K^2}$                         | (6)  | S>0                   |
-| $t^a$                                                  | $\displaystyle \large \frac{\Gamma (a+1)}{S^{a+1}}$ | (7)  | S>0                   |
-| $u_a(t)$                                               | $\displaystyle \large \frac{e^{-aS}}{S}$            | (8)  | S>0                   |
-| $e^{at}sen(bt)$                                        | $\displaystyle \frac{b}{(s-a)^2+b^2}$               | (9)  | S>a                   |
-| $e^{at}cos(bt)$                                        | $\displaystyle \frac{s-a}{(s-a)^2+b^2}$             | (10) | S>a                   |
-| $\mathscr{L}\{\delta_a(t)\}$                           | $e^{-as}$                                           | (11) |                       |
-| $\mathscr{L}\{u_c(t)\}$                                | $\displaystyle \frac{e^{-cs}}{s}$                   | (12) | s>0                   |
-| $\mathscr{L}\{u_cf(t-c)\}$                             | $e^{-cs}\mathscr{L}\{f(t)\}$                        | (13) | s>a                   |
-| $\displaystyle f(t) =\int_0^t g(t)dt$; $\mathscr{L}\{f(t )\}$ | $\frac{1}{S} \mathscr{L}\{f(t)\}$                  | (14)     |                       |
-
+| Função                                                        | Laplaciana                                              | Nº   | Restrição             |
+| ------------------------------------------------------------- | ------------------------------------------------------- | ---- | --------------------- |
+| a (constante)                                                 | $\large a\frac{1}{S}$                                   | (1)  | S>0                   |
+| $e^{at}$                                                      | $\large \frac{1}{S-a}$                                  | (2)  | S-a>0 e S>a           |
+| $Cosh(kt)$                                                    | $\large \frac{S}{S^2-K^2}$                              | (3)  | S> $\text{pip k pip}$ |
+| $Senh(kt)$                                                    | $\large \frac{K}{S^2-k^2}$                              | (4)  | S > pipe k pipe       |
+| $Cos (kt)$                                                    | $\large \frac{S}{S^2+K^2}$                              | (5)  | S>0                   |
+| $Sen (kt)$                                                    | $\large \frac{K}{S^2 +K^2}$                             | (6)  | S>0                   |
+| $t^a$                                                         | $\displaystyle \large \frac{\Gamma (a+1)}{S^{a+1}}$     | (7)  | S>0                   |
+| $u_a(t)$                                                      | $\displaystyle \large \frac{e^{-aS}}{S}$                | (8)  | S>0                   |
+| $e^{at}sen(bt)$                                               | $\displaystyle \frac{b}{(s-a)^2+b^2}$                   | (9)  | S>a                   |
+| $e^{at}cos(bt)$                                               | $\displaystyle \frac{s-a}{(s-a)^2+b^2}$                 | (10) | S>a                   |
+| $\mathscr{L}\{\delta_a(t)\}$                                  | $e^{-as}$                                               | (11) |                       |
+| $\mathscr{L}\{u_c(t)\}$                                       | $\displaystyle \frac{e^{-cs}}{s}$                       | (12) | s>0                   |
+| $\mathscr{L}\{u_cf(t-c)\}$                                    | $e^{-cs}\mathscr{L}\{f(t)\}$                            | (13) | s>a                   |
+| $\displaystyle f(t) =\int_0^t g(t)dt$; $\mathscr{L}\{f(t )\}$ | $\displaystyle\frac{1}{S} \mathscr{L}\{f(t)\}$          | (14) |                       |
+| $\mathscr{L}(t^ne^{at}))$                                     | $\displaystyle \frac{(-1)^{n+1}\Gamma(n)}{(a-s)^{n+1}}$ | (15) | s>0                   |
+| $\displaystyle \frac{e^{-as}}{s^k}$                           | $\displaystyle \frac{(t-a)^{k-1}}{(k-1)!} u(t-a)$       | (16) |                       |
 
 **Prova da Nº1:**
 	$\displaystyle \large \int_{0}^{\infty} ae^{-St}dt = a\lim_{B \to \infty} \left[ \frac{e^{-St}}{-S}|_{0}^{b} \right] = a \lim_{B \to \infty} \left[ \frac{e^{-Sb}}{-S}- \frac{1}{-S}\right]$, e temos a restrição de que S > 0 para haver convergência   
@@ -48,6 +49,10 @@ $\displaystyle \mathscr{L}(t^a) = \frac{\Gamma (a+1)}{S^{a+1}}$
 **Prova da Nº8**
 temos a [[Função degrau]]
 $\displaystyle \mathscr{L}(u_a(t)) = \int_{0}^\infty e^{-St}u_a (t)dt= \int_{0}^a e^{-St}.0 + \int_{a}^\infty e^{-St}.1dt = \frac{e^{-St}}{-S}|_{a}^\infty = \frac{e^{-aS}}{S}$
+
+**Prova da N 15**
+$\displaystyle \mathscr{L}[t^ne^{at}]=\int_0^\infty t^ne^{at}e^{-st}=\int_0^\infty t^ne^{(a-s)t},~~~\begin{cases} v=-(a-s)t\\ dv=(a-s)dt\end{cases}$ 
+$=\int_0^\infty \frac{(-1)^nv^n}{(a-s)^n}e^{-v}\frac{dv}{-(a-s)}=\frac{(-1)^{n+1}}{(a-s)^{n+1}}\int_0^\infty v^ne^{-v}dv=\frac{(-1)^{n+1}}{(a-s)^{n+1}}\underbrace{\displaystyle\int_0^\infty v^{(n+1)-1}e^{-v}dv}_{\Gamma(n)}=\frac{(-1)^{n+1}\Gamma(n)}{(a-s)^{n+1}}$   
 - **Definição**  
 Se f é derivável por partes, então f também é contínua por partes e diferenciável em [a,b] a menos de um nº finito de pontos e f' também é contínua por partes  
   
