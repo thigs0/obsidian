@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Métodos da Matemática 2/Transformada inversa de Laplace.md",
+                "file": "Métodos da Matemática 2/Função delta de Dirac.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transformada inversa de Laplace"
+              "title": "Função delta de Dirac"
             }
           },
           {
@@ -107,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4a8ca14625d46057",
@@ -215,9 +216,9 @@
   },
   "active": "bd28db48d65c1ff0",
   "lastOpenFiles": [
+    "Métodos da Matemática 2/Transformada inversa de Laplace.md",
     "Cálculo 3/Transformada de Laplace.md",
     "Métodos da Matemática 2/Função delta de Dirac.md",
-    "Métodos da Matemática 2/Transformada inversa de Laplace.md",
     "Algebra Linear/Subespaços.md",
     "Métodos da Matemática 2/Transformada de Fourier.md",
     "Cálculo 3/Método do fator integrante.md",
