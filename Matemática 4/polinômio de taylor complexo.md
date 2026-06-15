@@ -18,25 +18,25 @@ $\displaystyle \large \frac{1}{1-z} = \sum_{n=0}^\infty z^n = 1+z+z^2+z^3+... \h
 	 
 $\displaystyle \large e^z = \sum_{n=0}^\infty \frac{z^n}{n!}=1+\frac{z}{1!}+\frac{z^2}{2!}+...$
 $\displaystyle \large Sin(z) = \sum_{n=0}^\infty (-1)^n \frac{z^{2n+1}}{(2n+1)!} = z- \frac{z^3}{3!}+\frac{z^5}{5!}-....$
-	Prova:
-	
-	Temos da definição de [[Seno complexo]] que 
-	$\displaystyle sinh(z) = \frac{e^{iz}-e^{-iz}}{2} = \frac{e^{iz}}{2}- \frac{e^{-iz}}{2}$ 
-	Como conhecemos a série da exponencial, podemos abrir ela
-	$\displaystyle \frac{1}{2}\left( \sum_{n=0}^\infty \frac{(iz)^n}{n!}\right) - \frac{1}{2}\left( \sum_{n=0}^\infty \frac{(-iz)^n}{n!}\right) = \frac{1}{2}\left( \sum_{n=0}^n \frac{[i^n-(-i)^n]z^n}{n!}\right)$
-	Observamos que nos termos pares, teremos 0 nos couchetes, restando apenas os ímpares
-	$\displaystyle \frac{1}{2}\left( \sum_{n=0}^\infty \frac{2i^{2n+1}z^{2n+1}}{(2n+1)!}\right) = \sum_{n=0}^\infty \frac{(iz)^{2n+1}}{(2n+1)!}$ 
+Prova:
+
+Temos da definição de [[Seno complexo]] que 
+$\displaystyle sinh(z) = \frac{e^{iz}-e^{-iz}}{2} = \frac{e^{iz}}{2}- \frac{e^{-iz}}{2}$ 
+Como conhecemos a série da exponencial, podemos abrir ela
+$\displaystyle \frac{1}{2}\left( \sum_{n=0}^\infty \frac{(iz)^n}{n!}\right) - \frac{1}{2}\left( \sum_{n=0}^\infty \frac{(-iz)^n}{n!}\right) = \frac{1}{2}\left( \sum_{n=0}^n \frac{[i^n-(-i)^n]z^n}{n!}\right)$
+Observamos que nos termos pares, teremos 0 nos couchetes, restando apenas os ímpares
+$\displaystyle \frac{1}{2}\left( \sum_{n=0}^\infty \frac{2i^{2n+1}z^{2n+1}}{(2n+1)!}\right) = \sum_{n=0}^\infty \frac{(iz)^{2n+1}}{(2n+1)!}$ 
 $\displaystyle \large Cos(z) = \sum_{n=0}^\infty (-1)^n\frac{z^{2n}}{(2n)!} = 1-\frac{z^2}{2!}+\frac{z^4}{4!}+...$
-	Prova:
-	Temos que [[Cosseno complexo]] é dado por $\displaystyle Cos(z) = \frac{e^{iz}+e^{-iz}}{2}$, usando a expansão do exponencial
-	$\displaystyle Cos(z) = \frac{e^{iz}}{2}+\frac{e^{-iz}}{2}= \frac{1}{2}\sum_{n=0}^\infty \frac{(iz)^n}{n!}+ \frac{1}{2}\sum_{n=0}^\infty \frac{(-iz)^n}{n!} = \frac{1}{2}\sum_{n=0}^\infty \frac{[i^n+(-i)^n]z^n}{n!}$    
+Prova:
+Temos que [[Cosseno complexo]] é dado por $\displaystyle Cos(z) = \frac{e^{iz}+e^{-iz}}{2}$, usando a expansão do exponencial
+$\displaystyle Cos(z) = \frac{e^{iz}}{2}+\frac{e^{-iz}}{2}= \frac{1}{2}\sum_{n=0}^\infty \frac{(iz)^n}{n!}+ \frac{1}{2}\sum_{n=0}^\infty \frac{(-iz)^n}{n!} = \frac{1}{2}\sum_{n=0}^\infty \frac{[i^n+(-i)^n]z^n}{n!}$    
 $\displaystyle \large Sinh(z) = \sum_{n=0}^\infty \frac{z^{2n+1}}{(2n+1)!}=z+\frac{z^3}{3!}+\frac{z^5}{5!}+...$ 
-	Prova:
+Prova:
 $\displaystyle \large Cosh(z) = \sum_{n=0}^\infty \frac{z^{2n}}{(2n)!}= 1+\frac{z^2}{2!}+\frac{z^4}{4!}+...$
-	Prova:
-	Temos que $\displaystyle Cosh(z) = \frac{e^z+e^{-z}}{2}= \frac{e^z}{2}+\frac{e^{-z}}{2}$ e podemos representar $e^z$ em forma de soma infinita
-	$\displaystyle Cosh(z) = \frac{1}{2}\sum_{n=0}^\infty \frac{z^n}{n!}+ \frac{1}{2}\sum_{n=0}^\infty \frac{(-z)^n}{n!} = \frac{1}{2}\sum_{n=0}^\infty \frac{[1+(-1)^n]z^n}{n!}$, para n ímpar, o termo no parentesis é 0. De tal forma que representamos apenas os termos pares
-	$\displaystyle \frac{1}{2}\sum_{n = 0}^\infty \frac{[1+1]z^{2n}}{(2n)!} = \frac{1}{2}\sum_{n=0}^\infty \frac{2z^{2n}}{(2n)!} =  \sum_{n=0}^\infty \frac{z^{2n}}{(2n)!}~~~\blacksquare$   
+Prova:
+Temos que $\displaystyle Cosh(z) = \frac{e^z+e^{-z}}{2}= \frac{e^z}{2}+\frac{e^{-z}}{2}$ e podemos representar $e^z$ em forma de soma infinita
+$\displaystyle Cosh(z) = \frac{1}{2}\sum_{n=0}^\infty \frac{z^n}{n!}+ \frac{1}{2}\sum_{n=0}^\infty \frac{(-z)^n}{n!} = \frac{1}{2}\sum_{n=0}^\infty \frac{[1+(-1)^n]z^n}{n!}$, para n ímpar, o termo no parentesis é 0. De tal forma que representamos apenas os termos pares
+$\displaystyle \frac{1}{2}\sum_{n = 0}^\infty \frac{[1+1]z^{2n}}{(2n)!} = \frac{1}{2}\sum_{n=0}^\infty \frac{2z^{2n}}{(2n)!} =  \sum_{n=0}^\infty \frac{z^{2n}}{(2n)!}~~~\blacksquare$   
 
 ---
 

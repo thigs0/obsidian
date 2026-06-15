@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cálculo 3/Transformada de Laplace.md",
+                "file": "Métodos da Matemática 2/Transformada inversa de Laplace.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transformada de Laplace"
+              "title": "Transformada inversa de Laplace"
             }
           },
           {
@@ -34,23 +34,8 @@
               "icon": "lucide-file",
               "title": "Função delta de Dirac"
             }
-          },
-          {
-            "id": "c60ac043f8057a7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Métodos da Matemática 2/Transformada de Fourier.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Transformada de Fourier"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4a8ca14625d46057",
@@ -214,37 +198,37 @@
       "bases:Create new base": false
     }
   },
-  "active": "bd28db48d65c1ff0",
+  "active": "12a758f34e632e87",
   "lastOpenFiles": [
+    "Pasted image 20251130173027.png",
+    "Métodos da Matemática 2/contorno.png",
     "Métodos da Matemática 2/Transformada inversa de Laplace.md",
-    "Cálculo 3/Transformada de Laplace.md",
     "Métodos da Matemática 2/Função delta de Dirac.md",
-    "Algebra Linear/Subespaços.md",
+    "Matemática discreta/Função de euler.md",
+    "Matemática discreta/Binomial generalizada.md",
+    "Matemática discreta/Equação diofantina.md",
+    "Geometria Analítica/Matriz elementar.md",
+    "Geometria Analítica/Matriz.md",
+    "Geometria Analítica/Hipérbole.md",
+    "Matemática 4/Teorema de Riemann.md",
+    "Matemática 4/teorema da curva de Jordan.md",
+    "Matemática 4/Série de Leurent.md",
+    "Matemática 4/Esfera de Riemann.md",
+    "Matemática 4/Fórmula de Cardano.md",
+    "Matemática 4/Função analítica.md",
+    "Matemática 4/Função Zeta de Riemann.md",
+    "Matemática 4/Integral de Cauchy.md",
+    "Matemática 4/Lema de Jordan.md",
+    "Matemática 4/Números complexos.md",
+    "Matemática 4/polinômio de taylor complexo.md",
     "Métodos da Matemática 2/Transformada de Fourier.md",
+    "Cálculo 3/Transformada de Laplace.md",
+    "Algebra Linear/Subespaços.md",
     "Cálculo 3/Método do fator integrante.md",
     "Métodos da Matemática 2/Método da separação por variáveis.md",
     "Algebra Linear/Autovetor e Autovalor.md",
-    "Algebra Linear/Transformação linear.md",
-    "Algebra Linear/Teorema do mais um e menos um.md",
-    "Algebra Linear/Produto interno.md",
-    "Algebra Linear/Processo de Gram-Schmidt.md",
-    "Algebra Linear/Mudança de Base.md",
-    "Algebra Linear/Matriz ortogonal.md",
-    "Algebra Linear/Matriz definida positiva.md",
-    "Algebra Linear/Linear independente.md",
-    "Algebra Linear/Formas quadráticas.md",
-    "Algebra Linear/Espaço vetorial real.md",
-    "Algebra Linear/Espaço vetorial complexo.md",
-    "Algebra Linear/Espaço fundamental de matriz.md",
-    "Cálculo 3/Equação da onda.md",
-    "Métodos da Matemática 2/Problemas de Cauchy.md",
-    "README.md",
-    "Métodos da Matemática 2/Fenômeno de gibbs.md",
-    "Métodos da Matemática 2/Exercícios Equações diferenciais parciais.md",
-    "Métodos da Matemática 2/Soma de Cesàro.md",
     "Métodos da Matemática 2/fourier_many_n.png",
     "test/dist.png",
-    "Pasted image 20251130173027.png",
     "test/euclidian.png",
     "test",
     "Probabilidade 2/listas/Lista 6.pdf",
@@ -260,7 +244,6 @@
     "Probabilidade 2/img/norm.png",
     "Pasted image 20250924105146.png",
     "Pasted image 20250924105026.png",
-    "Pasted image 20250924104940.png",
-    "Pasted image 20250924104902.png"
+    "Pasted image 20250924104940.png"
   ]
 }
