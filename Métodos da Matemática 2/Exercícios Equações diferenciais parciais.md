@@ -10,7 +10,7 @@ isolamos t na equação dois ($y-s=t$) e aplicamos na primeira $\displaystyle s=
 
 $$\boxed{u(x,y)=\sin\left(\frac{x-cy}{1-c}\right)}$$
 b)
-$$\begin{cases}u_y+uu_x=0\\y(x,0)=f(x)\end{cases}$$
+$$\begin{cases}u_y+uu_x=0\\u(x,0)=f(x)\end{cases}$$
 Sabemos que $\begin{cases}a=u\\b=1\\c=0\end{cases}$, então encontraremos as componentes de t
 $\begin{cases} \frac{dx}{dt}=u\Rightarrow dx=udt\Rightarrow x=ut+f_1(s)\\ \frac{dy}{dt}=1\Rightarrow dy=d\Rightarrow y=t+f_2(s)\\ \frac{du}{dt}=0\Rightarrow du=0dt\Rightarrow u=f_2(s) \end{cases}$, aplicamos as condições iniciais para encontrar as constantes dependentes de s
 $$\begin{cases} u(s,0)=f_3(s)=f(s)\\ y(s,0)=0+f_2(s)=0\\ x(s,0)=f_1(s)=s \end{cases}\Rightarrow \begin{cases}u(s,t)=f(s)\\y(s,t)=t\\ x(s,t)=tf(s)+s\end{cases}$$

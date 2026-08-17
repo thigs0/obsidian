@@ -60,7 +60,7 @@ $\textbf{Teorema}$ - [[Teorema da transformada da derivada]]
 Seja $f$ [[Contínua]] e diferenciável por parte, f tem ordem exponencial; então  
 $$\mathscr{L}(f'(t))= s\mathscr{L}(f(t))-f(t)$$  
 **Demonstração:** Suponha que f' é contínua  
-	$\mathscr{L}(f'(t))= \int_{0}^{\infty} e^{-st}f'(t)dt$, resolvendo por partes $\begin{cases}u = e^{-st}\\ dv = f'(t)dt \\du = -se^{-st}dt \\ v= f(t)\end{cases}$  
+	$\mathscr{L}(f'(t))= \int_{0}^{\infty} e^{-st}f'(t)dt$, resolvendo por partes $\begin{cases}u = e^{-st}\\ dv = f'(t)dt \\ du = -se^{-st}dt \\ v= f(t)\end{cases}$  
 	  $\displaystyle \large \lim_{b \to \infty} e^{-st}f(t)|_{0}^b - \int_{0}^\infty -se^{-st}f(t)dt$ ;  $\displaystyle \lim _{b \to \infty} e^{-sb}f(b)-f(0) + s \int_{0}^{\infty}e^{-st}f(t)$  
 	  este limite nos retorna o [[limite]] da exponencial é 0 e o termo com a [[Integral]] é a definição da laplaciana  
 	_obs_: para f contínua por partes  
